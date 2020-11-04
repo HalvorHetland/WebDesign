@@ -54,7 +54,7 @@ nav {
   margin-top: 10px;
   display: grid;
     grid-gap: 10px;
-		grid-template-columns: 50%;
+    grid-template-columns: 50%;
     background-color: #fff;
 		color: #444;
 }

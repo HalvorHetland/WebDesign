@@ -12,22 +12,6 @@ nav {
   height: 100px;
   background-color: #fff;
 }
-.logo a{
-  display: block;
-  text-decoration: none;
-  font-family: Courier;
-  color: black;
-  font-size: 1.8em;
-  padding: 10px;
-  margin: 0px 10px;
-  text-align: left;
-  width: 0;
-  height: auto;
-  position: fixed;
-  top: 18px;
-  left: 20px;
-  z-index: 1;
-}
 
 .ul li {
   text-align: center;
@@ -38,17 +22,17 @@ nav {
   color: black;
   text-decoration: none;
   font: 25px Helvetica;
-  margin: 0px 10px;
+  margin: 10px;
   padding: 20px;
 }
 
 .wrapper{
   margin-top: 10px;
   display: grid;
-    grid-gap: 10px;
-		grid-template-columns: 50%;
-    background-color: #fff;
-		color: #444;
+  grid-gap: 10px;
+  grid-template-columns: 50%;
+  background-color: #fff;
+  color: #444;
 }
 .a{
   grid-column: 1 / 2;
@@ -72,7 +56,6 @@ nav {
     color: black;
     height: auto;
     margin: 10px;
-    display: fixed;
     flex-wrap: wrap;
     padding: 20px;
     border-radius: 10px;
@@ -95,14 +78,12 @@ nav {
     margin: 3em;
     font-size: 2.5em;
 }
-.img-back{
-  display: none;
-  opacity: 0.9;
-}
+
 @media only screen and (min-width: 300px) {
   .img-back {
     display: block;
     width: 100%;
+    opacity: 0.8;
   }
   .divcenter{
     position: absolute;
