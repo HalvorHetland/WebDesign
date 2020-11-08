@@ -4,7 +4,6 @@
 }
 body {
   background-color: #fff;
-
 }
 
 nav {
@@ -13,26 +12,55 @@ nav {
   background-color: #fff;
 }
 
-.ul li {
-  text-align: center;
+.logo a{
+  display: block;
+  text-decoration: none;
+  font-family: Courier;
+  color: black;
+  font-size: 1.8em;
+  padding: 10px;
+  margin: 0px 10px;
+  text-align: left;
+  width: 0;
+  height: auto;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+ul {
+ margin-left: 550px;
+}
+
+ul li {
   list-style: none;
   display: inline-block;
+  float: left;
+  line-height: 100px;
 }
-.ul a{
-  color: black;
+
+ul li a {
+  display: block;
   text-decoration: none;
-  font: 25px Helvetica;
-  margin: 10px;
-  padding: 20px;
+  font-size: 25px;
+  font-family: Helvetica;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+ul li a:hover {
+  color: red;
 }
 
 .wrapper{
   margin-top: 10px;
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 50%;
-  background-color: #fff;
-  color: #444;
+    grid-gap: 10px;
+		grid-template-columns: 50%;
+    background-color: #fff;
+		color: #444;
 }
 .a{
   grid-column: 1 / 2;
@@ -56,6 +84,7 @@ nav {
     color: black;
     height: auto;
     margin: 10px;
+    display: fixed;
     flex-wrap: wrap;
     padding: 20px;
     border-radius: 10px;
@@ -78,12 +107,14 @@ nav {
     margin: 3em;
     font-size: 2.5em;
 }
-
+.img-back{
+  display: none;
+  opacity: 0.9;
+}
 @media only screen and (min-width: 300px) {
   .img-back {
     display: block;
     width: 100%;
-    opacity: 0.8;
   }
   .divcenter{
     position: absolute;
