@@ -75,19 +75,40 @@ body {
     color: white;
     background-color: transparent;
     padding: 20px;
-    border: 0px;
     font-family: "Helvetica Neue";
   }
 
 }
-.img-barn{
-  width: 100%;
-}
+
 #navbar {
-  overflow: hidden;
-  background-color: white;
+    overflow: hidden;
+    background-color: white;
 }
 
+
+#navbar {
+    text-align: center;
+    float: none;
+}
+
+#navbar .logo-nav {
+  max-width: 200px;
+  max-height: 27px;
+}
+
+#navbar a.active {
+  background-color: gray;
+  color: white;
+}
+#navbar .logo-nav:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 #navbar a {
   float: left;
   display: block;
@@ -100,27 +121,9 @@ body {
 }
 
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-#navbar .logo-nav:hover{
-  background-color: #ddd;
-  color: black;
-    
-}
-
-#navbar a.active {
-  background-color: gray;
-  color: white;
-}
-
-
-#logo-nav{
-  max-width: 200px;
-  max-height: 27px;
-
+.img-barn{
+  width: 100%;
 }
 
 .content {
