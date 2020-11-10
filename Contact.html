@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="contactstyle.css">
 </head>
 <body>
-<div id="navbar">
+<div id="navbaren">
   <a href="index.html"><img class="logo-nav" src="logoen.png" alt="logo"></a>
   <a href="index.html">Home</a>
   <a href="Product.html">Product</a>
@@ -14,12 +14,11 @@
   <a class="active" href="Contact.html">Contact</a>
 </div>
 
-  <div class="introduction">
-    <div class="text">
-    <h3><strong>Contact us!</strong></h3>
-    <p>If you have questions about our product, the company or anything else please fill out our contact form. We´d love to hear from you.</p> 
-  </div>
-  </div>
+<div class="container2">
+   <img class="img-back" src="naturephoto.jpeg" alt="Nature">
+   <div class="divcenter">Contact</div>
+ </div>
+
 
 <div class="container">
   <form action="/action_page.php">
@@ -38,6 +37,23 @@
     <input type="submit" value="Submit">
   </form>
 </div>
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbaren");
+
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("stick")
+    } else {
+      navbar.classList.remove("stick");
+    }
+  }
+
+</script>
 
 </body>
 </html>

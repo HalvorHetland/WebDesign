@@ -68,36 +68,36 @@ body {
 }
 
 
-#navbar {
+#navbaren {
   overflow: hidden;
   background-color: white;
 }
 
 
-#navbar {
+#navbaren {
   text-align: center;
   float: none;
 }
 
-#navbar .logo-nav {
+#navbaren .logo-nav {
   max-width: 200px;
   max-height: 27px;
 }
 
-#navbar a.active {
+#navbaren a.active {
   background-color: gray;
   color: white;
 }
-#navbar .logo-nav:hover {
+#navbaren .logo-nav:hover {
   background-color: #ddd;
   color: black;
 }
 
-#navbar a:hover {
+#navbaren a:hover {
   background-color: #ddd;
   color: black;
 }
-#navbar a {
+#navbaren a {
   float: left;
   display: block;
   color: black;
