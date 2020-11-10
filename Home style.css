@@ -6,54 +6,6 @@ body {
   background-color: #fff;
 }
 
-nav {
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-}
-
-.logo a{
-  display: block;
-  text-decoration: none;
-  font-family: Courier;
-  color: black;
-  font-size: 1.8em;
-  padding: 10px;
-  margin: 0px 10px;
-  text-align: left;
-  width: 0;
-  height: auto;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-  right: 20px;
-  z-index: 1000;
-}
-
-ul {
- margin-left: 550px;
-}
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  float: left;
-  line-height: 100px;
-}
-
-ul li a {
-  display: block;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: Helvetica;
-  color: #1e1e1e;
-  padding: 0 20px;
-}
-
-ul li a:hover {
-  color: red;
-}
-
 .wrapper{
   margin-top: 10px;
   display: grid;
@@ -128,16 +80,61 @@ ul li a:hover {
     border: 0.5px solid grey;
     border-radius: 15px 15px 15px 15px;
   }
-  .navbar{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background: #fff;
-    position: fixed;
-    width: 100%;
-    border-bottom: 0.5px solid grey;
-    float:left;
-  }
+
 }
 .img-barn{
   width: 100%;
 }
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Helvetica Neue";
+}
+
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar .logo-nav:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: gray;
+  color: white;
+}
+
+
+#navbar .logo-nav{
+  max-width: 30px;
+  max-height: 30px;
+
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+

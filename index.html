@@ -6,17 +6,14 @@
     <link rel="stylesheet" href="Home style.css">
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <h1><a href="index.html">Inova</a></h1>
-      </div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Events.html">Events</a></li>
-      <li><a href="Staff.html">Staff</a></li>
-      <li><a href="Contact Us.html">Contact</a></li>
-    </ul>
-    </nav>
+  <div id="navbar">
+      <a href="index.html"><img class="logo-nav" src="logoen.png"></a>
+      <a class="active" href="index.html">Home</a>
+      <a href="Product.html">Product</a>
+      <a href="News.html">News</a>
+      <a href="Contact.html">Contact</a>
+
+  </div>
    <div class="container2">
       <img class="img-back" src="Differentv3.jpg" alt="Picture of birds on a wire, with one of them upside
       down to symbolize that it is different">
@@ -42,5 +39,25 @@
           </p>
           </div>
      </div>
+
+  <script>
+      window.onscroll = function() {myFunction()};
+
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+          if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+          } else {
+              navbar.classList.remove("sticky");
+          }
+      }
+
+  </script>
   </body>
 </html>
