@@ -128,13 +128,13 @@ body {
     padding: 16px;
 }
 
-.sticky {
+.stick {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.sticky + .content {
+.stick + .content {
     padding-top: 60px;
 }
 
