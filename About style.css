@@ -39,19 +39,27 @@ body {
 
 }
 .container3{
-      position: absolute;
-      text-align: center;
-      color: #fff;
-      z-index: -1;
- 
-        margin-top: 7%;
-
-}
-.img_ansatt{
-     max-width: 100%;
-  height: auto;
+    margin-top: 7%;
+    width: 100%;
+  height: 1000px;
+  background-image: url('ansatt.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
+.ansattInfo{
+    
+    max-height: 800px;
+    max-width: 30%;
+   padding: 20px;
+    color: white;
+     background: rgba(25,25,112, 0.4);
+    margin-left: 55%;
+    line-height: 1.6;
+     font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    
+        
+}
 .h2{
     text-align: center;
     margin: 3em;
