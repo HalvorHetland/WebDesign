@@ -90,40 +90,40 @@ body {
     background-color: white;
 }
 
-#navbar a {
-    float: left;
-    display: block;
-    color: black;
+
+#navbar {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: "Helvetica Neue";
+    float: none;
 }
 
-
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-#navbar .logo-nav:hover{
-    background-color: #ddd;
-    color: black;
+#navbar .logo-nav {
+    max-width: 200px;
+    max-height: 27px;
 }
 
 #navbar a.active {
     background-color: gray;
     color: white;
 }
-
-
-#navbar .logo-nav{
-    max-width: 30px;
-    max-height: 30px;
-
+#navbar .logo-nav:hover {
+    background-color: #ddd;
+    color: black;
 }
 
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Helvetica Neue";
+}
 .content {
     padding: 16px;
 }

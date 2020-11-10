@@ -59,69 +59,71 @@ body {
     margin: 3em;
     font-size: 2.5em;
 }
-.img-back{
-  display: none;
-  opacity: 0.9;
-}
+
 @media only screen and (min-width: 300px) {
   .img-back {
     display: block;
     width: 100%;
   }
+
   .divcenter{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    font-size: 3em;
-    color: black;
-    background-color: #fff;
+    font-size: 8em;
+    color: white;
+    background-color: transparent;
     padding: 20px;
-    border: 0.5px solid grey;
-    border-radius: 15px 15px 15px 15px;
+    font-family: "Helvetica Neue";
   }
 
 }
-.img-barn{
-  width: 100%;
-}
+
 #navbar {
-  overflow: hidden;
-  background-color: white;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Helvetica Neue";
+    overflow: hidden;
+    background-color: white;
 }
 
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
+#navbar {
+    text-align: center;
+    float: none;
 }
 
-#navbar .logo-nav:hover{
-  background-color: #ddd;
-  color: black;
+#navbar .logo-nav {
+  max-width: 200px;
+  max-height: 27px;
 }
 
 #navbar a.active {
   background-color: gray;
   color: white;
 }
+#navbar .logo-nav:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: "Helvetica Neue";
+}
 
 
-#navbar .logo-nav{
-  max-width: 30px;
-  max-height: 30px;
 
+.img-barn{
+  width: 100%;
 }
 
 .content {
