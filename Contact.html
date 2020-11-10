@@ -39,5 +39,22 @@
   </form>
 </div>
 
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbaren");
+
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("stick")
+    } else {
+      navbar.classList.remove("stick");
+    }
+  }
+
+</script>
+
 </body>
 </html>
