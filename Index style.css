@@ -59,26 +59,24 @@ body {
     margin: 3em;
     font-size: 2.5em;
 }
-.img-back{
-  display: none;
-  opacity: 0.9;
-}
+
 @media only screen and (min-width: 300px) {
   .img-back {
     display: block;
     width: 100%;
   }
+
   .divcenter{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    font-size: 3em;
-    color: black;
-    background-color: #fff;
+    font-size: 8em;
+    color: white;
+    background-color: transparent;
     padding: 20px;
-    border: 0.5px solid grey;
-    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family: "Helvetica Neue";
   }
 
 }
