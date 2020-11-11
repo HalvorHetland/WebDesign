@@ -6,13 +6,17 @@
   <link rel="stylesheet" href="contactstyle.css">
 </head>
 <body>
-<div id="navbaren">
-  <a href="index.html"><img class="logo-nav" src="logoen.png" alt="logo"></a>
-  <a href="index.html">Home</a>
-  <a href="Product.html">Product</a>
-  <a href="News.html">News</a>
-  <a class="active" href="Contact.html">Contact</a>
-</div>
+<header>
+  <a class="logo" href="index.html"><img src="logoNy2.png" alt="logo"></a>
+  <nav>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Product.html">Product</a></li>
+      <li><a href="News.html">News</a></li>
+    </ul>
+  </nav>
+  <a class="cta" href="Contact.html"><button>Contact</button></a>
+</header>
 
 <div class="container2">
    <img class="img-back" src="naturephoto.jpeg" alt="Nature">
@@ -37,23 +41,6 @@
     <input type="submit" value="Submit">
   </form>
 </div>
-
-<script>
-  window.onscroll = function() {myFunction()};
-
-  var navbar = document.getElementById("navbaren");
-
-  var sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("stick")
-    } else {
-      navbar.classList.remove("stick");
-    }
-  }
-
-</script>
 
 </body>
 </html>

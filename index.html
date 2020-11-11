@@ -2,18 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tutorial</title>
-    <link rel="stylesheet" href="Index style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="Index style.css">
   </head>
   <body>
-  <div id="navbaren">
-      <a href="index.html"><img class="logo-nav" src="logoen.png"></a>
-      <a class="active" href="index.html">Home</a>
-      <a href="Product.html">Product</a>
-      <a href="News.html">News</a>
-      <a href="Contact.html">Contact</a>
-
-  </div>
+  <header>
+      <a class="logo" href="index.html"><img src="logoNy2.png" alt="logo"></a>
+      <nav>
+          <ul class="nav__links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Product.html">Product</a></li>
+              <li><a href="News.html">News</a></li>
+          </ul>
+      </nav>
+      <a class="cta" href="Contact.html"><button>Contact</button></a>
+  </header>
    <div class="container2">
       <img class="img-back" src="forside.jpg" alt="Park">
       <div class="divcenter">THINK DIFFERENT</div>
@@ -38,22 +43,5 @@
           </p>
           </div>
      </div>
-
-  <script>
-      window.onscroll = function() {myFunction()};
-
-      var navbar = document.getElementById("navbaren");
-
-      var sticky = navbar.offsetTop;
-
-      function myFunction() {
-          if (window.pageYOffset >= sticky) {
-              navbar.classList.add("stick")
-          } else {
-              navbar.classList.remove("stick");
-          }
-      }
-
-  </script>
   </body>
 </html>
