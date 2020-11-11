@@ -6,14 +6,17 @@
   <link rel="stylesheet" href="News style.css">
 </head>
 <body>
-<div id="navbaren">
-  <a href="index.html"><img class="logo-nav" src="logoen.png"></a>
-  <a href="index.html">Home</a>
-  <a href="Product.html">Product</a>
-  <a class="active" href="News.html">News</a>
-  <a href="Contact.html">Contact</a>
-
-</div>
+<header>
+  <a class="logo" href="index.html"><img src="logoNy2.png" alt="logo"></a>
+  <nav>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Product.html">Product</a></li>
+      <li><a href="News.html">News</a></li>
+    </ul>
+  </nav>
+  <a class="cta" href="Contact.html"><button>Contact</button></a>
+</header>
 <div class="wrapper">
   <div class="a"><img class="img-barn" src="planet.jpg" alt="Picture of planet earth"></div>
   <div class="d"><img class="img-barn" src="Barnv2.jpg" alt="Picture of a child looking at the sky"></div>
@@ -34,25 +37,5 @@
     </p>
   </div>
 </div>
-
-<script>
-  window.onscroll = function() {myFunction()};
-
-  // Get the navbar
-  var navbar = document.getElementById("navbaren");
-
-  // Get the offset position of the navbar
-  var sticky = navbar.offsetTop;
-
-  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("stick")
-    } else {
-      navbar.classList.remove("stick");
-    }
-  }
-
-</script>
 </body>
 </html>
