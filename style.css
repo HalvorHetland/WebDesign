@@ -62,7 +62,7 @@ nav{
         /*overflow-x: hidden;*/
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         right: 0;
         height: 92vh;
         top: 8vh;
@@ -79,7 +79,6 @@ nav{
     }
     .burger{
         display: block;
-        padding: 10px;
     }
 }
 
