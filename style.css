@@ -23,7 +23,7 @@ nav{
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 70%;
 }
 .nav-links li{
     list-style: none;
@@ -79,6 +79,7 @@ nav{
     }
     .burger{
         display: block;
+        padding: 10px;
     }
 }
 
@@ -270,63 +271,67 @@ nav{
 
 }
 
-@media only screen and (min-width: 1000px){
-  .wrapper {
-    width: 1000px;
-  }
-
-  .divcenter h2{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: arial;
-      font-size: 50px;
-      font-style: italic;
-      color: black;
-      padding: 20px;
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
     }
 
-  .img-Recycling {
-    display: block;
-    opacity: 0.8;
-  }
+    .divcenter h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: arial;
+        font-size: 50px;
+        font-style: italic;
+        color: black;
+        padding: 20px;
+    }
 
-  .img-info {
-    width: 50%;
-    float: right; <!-- dette er for å putte tekst til høyre for bilde -->
-  }
+    .img-Recycling {
+        display: block;
+        opacity: 0.8;
+    }
 
-  .img-info h2 {
-    padding: 20px 0px 0px 30px;
-  }
+    .img-info {
+        width: 50%;
+        float: right;
+    <!-- dette er for å putte tekst til høyre for bilde -->
+    }
 
-  .img-info p {
-    padding: 20px 0px 0px 30px;
-  }
+    .img-info h2 {
+        padding: 20px 0px 0px 30px;
+    }
 
-  .img-info2 {
-    width: 50%;
-    float: left; <!-- dette er for å putte tekst til høyre for bilde -->
-  }
+    .img-info p {
+        padding: 20px 0px 0px 30px;
+    }
 
-  .img-info2 h2 {
-    padding: 50px 0px 0px 30px;
-  }
+    .img-info2 {
+        width: 50%;
+        float: left;
+    <!-- dette er for å putte tekst til høyre for bilde -->
+    }
 
-  .img-info2 p {
-    padding: 20px 0px 0px 30px;
-  }
+    .img-info2 h2 {
+        padding: 50px 0px 0px 30px;
+    }
 
-  .img-Recycle {
-    padding-top: 0px;
-    width: 50%;
-    float: left; <!-- dette er for å putte bilde til venstre side -->
-  }
+    .img-info2 p {
+        padding: 20px 0px 0px 30px;
+    }
 
-  .img-Recycle2 {
-    padding-top: 0px;
-    width: 50%;
-    float: right; <!-- dette er for å putte bilde til venstre side -->
-  }
+    .img-Recycle {
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+    <!-- dette er for å putte bilde til venstre side -->
+    }
+
+    .img-Recycle2 {
+        padding-top: 0px;
+        width: 50%;
+        float: right;
+    <!-- dette er for å putte bilde til venstre side -->
+    }
 }
