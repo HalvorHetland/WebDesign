@@ -114,6 +114,10 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
+.intro{
+  background-color: rgb(221, 221, 221); 
+}
+
 .introduction{    
   margin-left: 0px;
   margin-top: 0px;
@@ -129,7 +133,6 @@ nav{
   color: black;
   font-size: 2.5vw;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 5px;
 }
@@ -139,7 +142,6 @@ nav{
   color: black;
   font-size: 2.5vw;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(255, 255, 255);
   padding: 15px;
   border-radius: 5px;
 }
@@ -191,8 +193,7 @@ input[type=submit]:hover {
     width: 100%;  
     position: relative;
     overflow: -moz-hidden-unscrollable;
-    width: 500px;
+    width: 400px;
       
   }
 }
-
