@@ -6,6 +6,7 @@ body {
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 nav{
@@ -62,9 +63,7 @@ nav{
 }
 
 @media screen and (max-width: 768px){
-  body{
-    /*overflow-x: hidden;*/
-  }
+ 
   .nav-links{
     position: absolute;
     right: 0;
@@ -115,41 +114,37 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
-  /* Style introduction */
-  .introduction{    
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    border: 0px solid black;
-    text-align: center;
-    padding: 80px;
-  }
+.introduction{    
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border: 0px solid black;
+  text-align: center;
+  padding: 80px;
+}
 
-  .text{
-    text-align: center;
-    color: black;
-    font-size: 2.5vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 5px;
-  }
- 
-  .text2{
-    text-align: center;
-    color: black;
-    font-size: 2.5vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    border-radius: 5px;
-  }
-  @media screen and (max-width: 600px){
-    .text2{
-      font-size: 3vw;
-        
-    }
-  }
+ /* Style text */
+ .text{
+  text-align: center;
+  color: black;
+  font-size: 2.5vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.text2{
+  text-align: center;
+  color: black;
+  font-size: 2.5vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
 
 /* Registration form */
 input[type=text], select, textarea {
@@ -196,7 +191,7 @@ input[type=submit]:hover {
     width: 100%;  
     position: relative;
     overflow: -moz-hidden-unscrollable;
-    width: 400px;
+    width: 500px;
       
   }
 }
