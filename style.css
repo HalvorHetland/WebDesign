@@ -11,6 +11,7 @@ nav{
     min-height: 8vh;
     background-color: black;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 .logo a{
@@ -110,7 +111,6 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
 
 .wrapper {
   width: 100%;
@@ -334,3 +334,5 @@ nav{
     <!-- dette er for å putte bilde til venstre side -->
     }
 }
+
+

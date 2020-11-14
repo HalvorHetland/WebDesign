@@ -65,7 +65,7 @@ nav{
 @media screen and (max-width: 768px){
  
   .nav-links{
-    position: absolute;
+    position: fixed;
     right: 0;
     height: 92vh;
     top: 8vh;
