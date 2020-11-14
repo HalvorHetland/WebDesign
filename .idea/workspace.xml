@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5385d58e-838b-4f78-9198-8893b489d2db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Product style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Product style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/contactstyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +72,6 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,7 +90,7 @@
       <workItem from="1605011989520" duration="5089000" />
       <workItem from="1605111448675" duration="4206000" />
       <workItem from="1605120431043" duration="3361000" />
-      <workItem from="1605185544612" duration="1701000" />
+      <workItem from="1605185544612" duration="3289000" />
     </task>
     <servers />
   </component>
