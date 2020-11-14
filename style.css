@@ -11,6 +11,7 @@ nav{
     min-height: 8vh;
     background-color: black;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 .logo a{
@@ -62,7 +63,7 @@ nav{
         /*overflow-x: hidden;*/
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         right: 0;
         height: 92vh;
         top: 8vh;
@@ -79,7 +80,6 @@ nav{
     }
     .burger{
         display: block;
-        padding: 10px;
     }
 }
 
@@ -111,7 +111,6 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
 
 .wrapper {
   width: 100%;
@@ -335,3 +334,5 @@ nav{
     <!-- dette er for å putte bilde til venstre side -->
     }
 }
+
+
