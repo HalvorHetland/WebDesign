@@ -186,12 +186,10 @@ input[type=submit]:hover {
   align-content: center;
   width: 700px;
   border: 1px solid black;
-  
 }
-@media screen and (max-width: 600px){
+@media screen and (min-width: 500px){
   .container1{
     width: 100%;  
-    position: relative;
     overflow: -moz-hidden-unscrollable;
     width: 400px;
       
