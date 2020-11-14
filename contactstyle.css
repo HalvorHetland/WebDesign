@@ -63,9 +63,7 @@ nav{
 }
 
 @media screen and (max-width: 768px){
-  body{
-    /*overflow-x: hidden;*/
-  }
+ 
   .nav-links{
     position: absolute;
     right: 0;
@@ -116,33 +114,43 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
-@media only screen and (min-width: 300px) {
-  .img-back {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-
-  }
-
-  .divcenter{
-    position: absolute;
-    text-align: center;
-    display: inline-block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-    font-size: 8em;
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    padding: 20px;
-    font-family: Times;
-  }
+.introduction{    
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border: 0px solid black;
+  text-align: center;
+  padding: 80px;
 }
 
+ /* Style text */
+ .text{
+  text-align: center;
+  color: black;
+  font-size: 2.5vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.text2{
+  text-align: center;
+  color: black;
+  font-size: 2.5vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+
+/* Registration form */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -151,7 +159,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(0, 84, 168);
+  background-color: dodgerblue;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -163,39 +171,28 @@ input[type=submit]:hover {
   background-color:dodgerblue;
 }
 
-.container {
+/* Placement registration form */
+
+.container1 {
   border-radius: 5px;
   background-color: white;
   padding: 20px;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right:auto ;
+  margin-top:0;
   align-content: center;
-  width: 500px;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  border: 1px solid black;
+  
+}
+@media screen and (max-width: 600px){
+  .container1{
+    width: 100%;  
+    position: relative;
+    overflow: -moz-hidden-unscrollable;
+    width: 500px;
+      
+  }
 }
 
-/*@media only screen and (min-width: 300px) {
-  .introduction{
-    background-color: #ddd;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    padding: 290px;
-    background-image: url('naturephoto.jpeg');
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    border: 0px solid black;
-    display: block;
-    width: 100%;
-  }
-  
-  .text{
-    text-align: center;
-    color: black;
-    font-size: xx-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 5px;
-  }
