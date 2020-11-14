@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+
+.wrapper{
+     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    color: darkblue;
+
+}
+
+.container1{
+    align-content: center;
+    padding-left: 10%;
+    width: 50%;
+    opacity: 0.7;
+    margin-top: -10%;
+    font-size: 20px;
+    color: #314700;
+     margin-top: auto;
+     position: relative;
+   
+   
+}
+
+.container2{
+      position: relative;
+      text-align: center;
+      color: #fff;
+      z-index: -1;
+      height: 50%;
+
+}
+.container3{
+    margin-top: 7%;
+    width: 100%;
+  height: 1000px;
+  background-image: url('ansatt.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ansattInfo{
+    
+    max-height: 800px;
+    max-width: 30%;
+   padding: 20px;
+    color: white;
+     background: rgba(25,25,112, 0.4);
+    margin-left: 10%;
+    line-height: 1.6;
+     font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    
+        
+}
+.h2{
+    text-align: center;
+    margin: 3em;
+    font-size: 2.5em;
+}
+
+@media only screen and (min-width: 300px) {
+  .img-back {
+    display: block;
+    width: 100%;
+  }
+
+  #divcenter{
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+    color: white;
+    padding: 50px;
+    border: 0px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+  }
+
+}
+.img-barn{
+  width: 100%;
+}
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: "Helvetica Neue";
+}
+
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar .logo-nav:hover{
+  background-color: #ddd;
+  color: black;
+    
+}
+
+#navbar a.active {
+  background-color: gray;
+  color: white;
+}
+
+
+#logo-nav{
+  max-width: 200px;
+  max-height: 27px;
+
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+

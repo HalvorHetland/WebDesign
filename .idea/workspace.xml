@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5385d58e-838b-4f78-9198-8893b489d2db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Product style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +64,25 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +95,14 @@
       <workItem from="1604505209435" duration="68000" />
       <workItem from="1604505323361" duration="4384000" />
       <workItem from="1604512548033" duration="10000" />
-      <workItem from="1604512834365" duration="1086000" />
+      <workItem from="1604512834365" duration="1513000" />
+      <workItem from="1604928519848" duration="81000" />
+      <workItem from="1605003011998" duration="301000" />
+      <workItem from="1605004889165" duration="5333000" />
+      <workItem from="1605011989520" duration="5089000" />
+      <workItem from="1605111448675" duration="4206000" />
+      <workItem from="1605120431043" duration="3361000" />
+      <workItem from="1605185544612" duration="1701000" />
     </task>
     <servers />
   </component>
@@ -110,10 +129,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604508293103" />
-    <state x="319" y="72" key="new project wizard" timestamp="1604512452862">
+    <state x="319" y="72" key="new project wizard" timestamp="1605011457182">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="319" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1604512452862" />
+    <state x="319" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1605011457182" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1604514407072">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
