@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+  <div id="section1">
     <div class="hero">
       <div class="nav-bar">
         <div class="nav-logo">
@@ -28,77 +29,67 @@
       <div class="content">
         <h2>About us</h2>
         <br>
+        <div>
+          <div class="btnDown">
+            <img class="arrowDownWhite" src="arrowDownWhite.png">
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+
+    <div id="section2">
       <div class="container">
         <div class="contactInfo">
           <div class="box">
-            
               <div class="text">
-
                 <h3><strong>Why is it important to recycle?</strong><br><br><br>
-
                   To recycle is to be environmentally conscious. By recycling, you ensure high-quality recycling of cans 
                   and plastic bottles. What does this mean? This means that the bottles and cans can be remade to new bottles 
                   and cans, or new plastic packaging. By doing this, we will reduce the use of raw materials, we reduce 
                   emissions, and we use significantly less energy in the production of new products.
                   </h3>
-          
-              
-            
-                 
               </div>
-        </div>
-
-                <h3></h3>
-
-              </div>
-
-
-              </div>
-        </div>
-        <div class="contactForm">
-
-
-        </div>
-        <!--<div class="vertical-bar">
-          <div class="search-icon">
-            <i class="fa fa-th-list"></i>
-            <i class="fa fa-search"></i>
           </div>
-          <div class="social-icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-pinterest"></i>
-          </div>-->
         </div>
-          <div class="hero2">
-          <!--<div class="banner-title2">-->
-          <div class="wrapper">
-      <a id="explore"</a> <article class="img-info">
-        <h2>Use more recycled materials</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus massa at nisi vulputate posuere. Mauris placerat lobortis diam posuere elementum. Aliquam commodo nisl sem, ut volutpat tortor vestibulum eu. Curabitur malesuada ut enim eu condimentum. Etiam gravida id quam quis scelerisque. Vivamus augue dolor, finibus nec odio in, congue tempor est. Nulla ante justo, luctus vitae varius ut, sollicitudin vitae felis.</p>
-        <p>Ut sagittis elementum nulla at ultricies. Maecenas tortor sem, eleifend sit amet tempus in, tristique ac est. Suspendisse potenti. Phasellus eu odio cursus, laoreet lectus at, ultrices felis. Nunc sed luctus sapien, et facilisis dolor. </p>
-      </article>
-        <img class="img-Collect" src="Collect.jpg" alt="">
-        <img class="img-utehus" src="utehus.jpg" alt="Recycle med flere folk">
-      <article class="img-info2">
-        <h2>Why should you recycle?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus massa at nisi vulputate posuere. Mauris placerat lobortis diam posuere elementum. Aliquam commodo nisl sem, ut volutpat tortor vestibulum eu. Curabitur malesuada ut enim eu condimentum. Etiam gravida id quam quis scelerisque. Vivamus augue dolor, finibus nec odio in, congue tempor est. Nulla ante justo, luctus vitae varius ut, sollicitudin vitae felis.</p>
-        <p>Ut sagittis elementum nulla at ultricies. Maecenas tortor sem, eleifend sit amet tempus in, tristique ac est. Suspendisse potenti. Phasellus eu odio cursus, laoreet lectus at, ultrices felis. Nunc sed luctus sapien, et facilisis dolor. </p>
-      </article>
-    </div>
-    </div>
       </div>
+    </div>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-    var show = document.getElementById("nav-links");
+
+var show = document.getElementById("nav-links");
       function showMenu(){
           show.style.right = "0";
   }
   function closeMenu(){
       show.style.right = "-200px";
 }
+  var arrowDownWhite = getElementById("arrowDownWhite");
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  arrowDownWhite.on('click', function(event) {
 
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
   </body>
 </html>
