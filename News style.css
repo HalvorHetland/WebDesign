@@ -5,7 +5,7 @@
 }
 .hero{
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(forside.jpg);
+  background-color: black;
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -21,7 +21,7 @@
 }
 .nav-bar{
   display: flex;
-  padding: 40px 120px;
+  padding: 20px 120px;
 }
 .nav-logo h1{
   color: #fff;
@@ -45,7 +45,7 @@
 }
 .nav-logo h1::after{
   content: '';
-  width: 0%;
+  width: 0;
   height: 2px;
   background: yellow;
   display: block;
@@ -67,65 +67,15 @@
 .nav-links ul li:hover::after{
   width: 100%;
 }
-.wrapper{
-  width: 100%;
-}
-.img-info{
-  width: 100%;
-}
-.img-info h2 {
-  padding: 30px 30px 20px;
-  font-size: 50px;
-  color: #fff;
-  line-height: 44px;
-}
 
-.img-info p {
-  padding: 0px 30px 20px;
-  font-size: 16px;
-  color: #fff;
-  line-height: 24px;
-}
-
-.img-info2 {
-  width: 100%;
-}
-
-.img-info2 h2 {
-  padding: 30px 30px 20px;
-  font-size: 50px;
-  color: #fff;
-  line-height: 44px;
-}
-
-.img-info2 p {
-  padding: 0px 30px 20px;
-  font-size: 16px;
-  color: #fff;
-  line-height: 24px;
-}
-.img-Collect{
-  width: 100%;
-}
-.img-utehus{
-  width: 100%;
-}
 .btn{
   padding: 10px 20px;
   border: 0;
   background: yellow;
   font-weight: bold;
   cursor: pointer;
-  color: black; 
-}
-
-.btn2{
-  padding: 10px 20px;
-  border: 0;
-  background: yellow;
-  font-weight: bold;
-  cursor: pointer;
   color: black;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .nav-links .btn{
@@ -187,34 +137,6 @@
   display: none;
 }
 @media only screen and (min-width: 768px){
-  .wrapper {
-    width: 600px;
-    margin: 0 auto;
-  }
-
-  .img-info h2 {
-    padding: 20px 0px 0px;
-  }
-
-  .img-info p {
-    padding: 20px 0px 0px;
-  }
-
-  .img-info2 h2 {
-    padding: 20px 0px 0px;
-  }
-
-  .img-info2 p {
-    padding: 20px 0px 0px;
-  }
-
-  .img-Collect {
-    padding-top: 30px;
-  }
-
-  .img-utehus {
-    padding-top: 30px;
-  }
 
 }
 @media (max-width: 1050px){
@@ -234,7 +156,7 @@
     font-size: 50px;
   }
   .nav-bar{
-    padding: 10px 30px;
+    padding: 20px 30px;
   }
   .fa-bars{
     position: absolute;
@@ -267,6 +189,7 @@
     margin-left: 25px;
     margin-top: 10px;
     position: absolute;
+    border-radius: 5px 5px 5px 5px;
   }
   .nav-links .btn2{
     float: none;
@@ -275,4 +198,39 @@
     position: absolute;
     padding-right: 13.9px;
   }
+}
+
+
+.container1{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+.wrapper{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50%;
+  background-color: #fff;
+  color: #444;
+}
+
+
+.a{
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.b{
+  grid-column: 2 / 2 ;
+  grid-row: 1;
+}
+.c{
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+.d{
+  grid-column: 2 / 2;
+  grid-row: 2;
 }

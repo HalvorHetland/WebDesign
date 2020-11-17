@@ -14,7 +14,7 @@
 }
 .nav-bar{
     display: flex;
-    padding: 40px 120px;
+    padding: 20px 120px;
 }
 .nav-logo h1{
     color: #fff;
@@ -67,6 +67,7 @@
     font-weight: bold;
     cursor: pointer;
     color: black;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .btn2{
@@ -202,6 +203,7 @@
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    border-radius: 5px 5px 5px 5px;
 }
 @media (max-width: 991px) {
     .contact {
@@ -239,7 +241,7 @@
         font-size: 50px;
     }
     .nav-bar{
-        padding: 10px 30px;
+        padding: 20px 30px;
     }
     .fa-bars{
         position: absolute;
@@ -272,6 +274,7 @@
         margin-left: 25px;
         margin-top: 10px;
         position: absolute;
+        border-radius: 5px 5px 5px 5px;
     }
     .nav-links .btn2{
         float: none;
