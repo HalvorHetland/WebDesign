@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta nonce="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>News</title>
-  <link rel="stylesheet" href="News style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
-<nav>
-  <div class="logo">
-    <a href="index.html"><h4>Collect</h4></a>
-  </div>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About us</a></li>
-    <li><a href="News.html">News</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-  </ul>
-  <div class="burger">
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <div class="line3"></div>
-  </div>
-</nav>
-<div class="wrapper">
-  <div class="a"><img class="img-barn" src="planet.jpg" alt="Picture of planet earth"></div>
-  <div class="d"><img class="img-barn" src="Barnv2.jpg" alt="Picture of a child looking at the sky"></div>
-  <div class="container1 c">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the  industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  <head>
+    <title>COLLECT</title>
+    <meta name ="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="news style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="hero">
+    <div class="nav-bar">
+      <div class="nav-logo">
+        <a href="index.html" style="text-decoration:none"><h1>COLLECT</h1></a>
+          <!--<img src="logo3.jpg">-->
+        </div>
+            <div class="nav-links" id="nav-links">
+              <i class="fa fa-close" onclick="closeMenu()"></i>
+              <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+                <a href="news.html"><li>NEWS</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+              </ul>
+              <button type="button" class="btn">SIGN UP</button>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+          <h1>Take immediate action<br> to <span>combat climate change</span> <br>and its consequences</h1>
+          <button type="button" class="btn">EXPLORE</button>
+        </div>
+        <!--<div class="vertical-bar">
+          <div class="search-icon">
+            <i class="fa fa-th-list"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+          </div>-->
+        </div>
+          <div class="hero2">
+          <!--<div class="banner-title2">-->
+          <div class="wrapper">
+      <article class="img-info">
+        <h2>Use more recycled materials</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus massa at nisi vulputate posuere. Mauris placerat lobortis diam posuere elementum. Aliquam commodo nisl sem, ut volutpat tortor vestibulum eu. Curabitur malesuada ut enim eu condimentum. Etiam gravida id quam quis scelerisque. Vivamus augue dolor, finibus nec odio in, congue tempor est. Nulla ante justo, luctus vitae varius ut, sollicitudin vitae felis.</p>
+        <p>Ut sagittis elementum nulla at ultricies. Maecenas tortor sem, eleifend sit amet tempus in, tristique ac est. Suspendisse potenti. Phasellus eu odio cursus, laoreet lectus at, ultrices felis. Nunc sed luctus sapien, et facilisis dolor. </p>
+      </article>
+        <img class="img-Collect" src="Collect.jpg" alt="">
+        <img class="img-utehus" src="utehus.jpg" alt="Recycle med flere folk">
+      <article class="img-info2">
+        <h2>Why should you recycle?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus massa at nisi vulputate posuere. Mauris placerat lobortis diam posuere elementum. Aliquam commodo nisl sem, ut volutpat tortor vestibulum eu. Curabitur malesuada ut enim eu condimentum. Etiam gravida id quam quis scelerisque. Vivamus augue dolor, finibus nec odio in, congue tempor est. Nulla ante justo, luctus vitae varius ut, sollicitudin vitae felis.</p>
+        <p>Ut sagittis elementum nulla at ultricies. Maecenas tortor sem, eleifend sit amet tempus in, tristique ac est. Suspendisse potenti. Phasellus eu odio cursus, laoreet lectus at, ultrices felis. Nunc sed luctus sapien, et facilisis dolor. </p>
+      </article>
+    </div>
+    </div>
+<script>
+    var show = document.getElementById("nav-links");
+      function showMenu(){
+          show.style.right = "0";
+  }
+  function closeMenu(){
+      show.style.right = "-200px";
+}
 
-    </p>
-  </div>
-  <div class="container1 b">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
-    </p>
-  </div>
-</div>
-
-<script src="app.js"></script>
-
-</body>
+</script>
+  </body>
 </html>

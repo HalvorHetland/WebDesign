@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>COLLECT</title>
+    <meta name ="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="contact style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="nav-bar">
+        <div class="nav-logo">
+          <a href="index.html" style="text-decoration:none"><h1>COLLECT</h1></a>
+            <!--<img src="logo3.jpg">-->
+          </div>
+              <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                  <a href="index.html"><li>HOME</li></a>
+                  <a href="about.html"><li>ABOUT</li></a>
+                  <a href="news.html"><li>NEWS</li></a>
+                  <a href="contact.html"><li>CONTACT</li></a>
+                </ul>
+                <button type="button" class="btn">SIGN UP</button>
+              </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+          </div>
+      <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus massa at nisi vulputate posuere. Mauris placerat lobortis diam posuere elementum. Aliquam commodo nisl sem, ut volutpat tortor vestibulum eu.</p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>507-475-6094</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+                <div class="text">
+                  <h3>Phone</h3>
+                    <p>4671 Sugar Camp Road,<br>Owatonna,Minnesota,<br>55060</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                  <div class="text">
+                    <h3>Email</h3>
+                      <p>vierdebeste@gmail.com</p>
+                  </div>
+              </div>
+        </div>
+        <div class="contactForm">
+          <form>
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required="required"></textarea>
+              <span>Type your message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" value="Send">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    </div>
+        <!--<div class="vertical-bar">
+          <div class="search-icon">
+            <i class="fa fa-th-list"></i>
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+          </div>-->
+<script>
+    var show = document.getElementById("nav-links");
+      function showMenu(){
+          show.style.right = "0";
+  }
+  function closeMenu(){
+      show.style.right = "-200px";
+}
+
+</script>
+  </body>
+</html>
