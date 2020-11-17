@@ -117,9 +117,24 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.btn2{
+  padding: 10px 20px;
+  border: 0;
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
 .nav-links .btn{
   float: right;
 }
+
+.nav-links .btn2{
+  float: right;
+}
+
 .banner-title{
   margin: 80px 130px;
   color: #fff;
@@ -201,7 +216,7 @@
   }
 
 }
-@media (max-width: 700px){
+@media (max-width: 1050px){
   .vertical-bar{
     display: none;
   }
@@ -209,7 +224,7 @@
     margin: 80px 40px;
   }
   .banner-title h1{
-    font-size: 50px;
+    font-size: 40px;
   }
   .banner-title2{
     margin: 80px 40px;
@@ -250,5 +265,13 @@
     float: none;
     margin-left: 25px;
     margin-top: 10px;
+    position: absolute;
+  }
+  .nav-links .btn2{
+    float: none;
+    margin-left: 25px;
+    margin-top: 50px;
+    position: absolute;
+    padding-right: 13.9px;
   }
 }

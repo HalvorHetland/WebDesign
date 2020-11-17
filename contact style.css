@@ -67,9 +67,23 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.btn2{
+  padding: 10px 20px;
+  border: 0;
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
 .nav-links .btn{
   float: right;
 }
+
+.nav-links .btn2{
+  float: right;
+}
+
 .nav-bar .fa{
   display: none;
 }
@@ -189,53 +203,81 @@
   font-size: 18px;
 }
 @media (max-width: 991px) {
-  .contact{
+  .contact {
     padding: 50px;
   }
-  .container{
+
+  .container {
     flex-direction: column;
   }
-  .container .contactInfo{
+
+  .container .contactInfo {
     margin-bottom: 40px;
   }
+
   .container .contactInfo,
-  .contactForm{
+  .contactForm {
     width: 100%;
   }
-  @media (max-width: 700px){
-    .nav-bar{
-      padding: 10px 30px;
-    }
-    .fa-bars{
-      position: absolute;
-      right: 20px;
-      top: 10px;
-    }
-    .nav-bar .fa{
-      display: block;
-      color: #fff;
-      margin: 10px 25px;
-      font-size: 22px;
-      cursor: pointer;
-    }
-    .nav-links{
-      height: 100vh;
-      width: 200px;
-      background: #000;
-      top: 0;
-      right: -200px;
-      position: absolute;
-      text-align: left;
-      z-index: 2;
-      transition: 0.5s;
-    }
-    .nav-links ul a{
-      display: block;
-    }
-    .nav-links .btn{
-      float: none;
-      margin-left: 25px;
-      margin-top: 10px;
-    }
+}
+
+@media (max-width: 1050px){
+  .vertical-bar{
+    display: none;
+  }
+  .banner-title{
+    margin: 80px 40px;
+  }
+  .banner-title h1{
+    font-size: 40px;
+  }
+  .banner-title2{
+    margin: 80px 40px;
+  }
+  .banner-title2 h1{
+    font-size: 50px;
+  }
+  .nav-bar{
+    padding: 10px 30px;
+  }
+  .fa-bars{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  .nav-bar .fa{
+    display: block;
+    color: #fff;
+    margin: 10px 25px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links{
+    height: 100vh;
+    width: 200px;
+    background: #000;
+    top: 0;
+    right: -200px;
+    position: absolute;
+    text-align: left;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  .nav-links ul a{
+    display: block;
+  }
+  .nav-links .btn{
+    float: none;
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+  }
+  .nav-links .btn2{
+    float: none;
+    margin-left: 25px;
+    margin-top: 50px;
+    position: absolute;
+    padding-right: 13.9px;
   }
 }
+
