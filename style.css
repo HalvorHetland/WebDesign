@@ -220,7 +220,8 @@
   }
 
 }
-@media (max-width: 700px){
+
+@media (max-width: 1050px){
   .vertical-bar{
     display: none;
   }
@@ -269,10 +270,13 @@
     float: none;
     margin-left: 25px;
     margin-top: 10px;
+    position: absolute;
   }
   .nav-links .btn2{
     float: none;
     margin-left: 25px;
     margin-top: 50px;
+    position: absolute;
+    padding-right: 13.9px;
   }
 }
