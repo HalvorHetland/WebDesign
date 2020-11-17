@@ -14,7 +14,7 @@
 }
 .nav-bar{
     display: flex;
-    padding: 40px 120px;
+    padding: 20px 120px;
 }
 .nav-logo h1{
     color: #fff;
@@ -239,7 +239,7 @@
         font-size: 50px;
     }
     .nav-bar{
-        padding: 10px 30px;
+        padding: 20px 30px;
     }
     .fa-bars{
         position: absolute;
