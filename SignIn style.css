@@ -287,3 +287,7 @@
 .container .contactForm p{
     text-align: center;
 }
+
+.container .contactForm a{
+    color: #00bcd4;
+}
