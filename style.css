@@ -2,19 +2,12 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 .hero{
   height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(forside.jpg);
   background-position: center;
-  background-size: cover;
-  overflow-x: hidden;
-  position: relative;
-}
-.hero2{
-  height: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(naturephoto.jpeg);
-  background-position: bottom;
   background-size: cover;
   overflow-x: hidden;
   position: relative;
@@ -80,14 +73,14 @@
 .img-info h2 {
   padding: 30px 30px 20px;
   font-size: 50px;
-  color: #fff;
+  color: black;
   line-height: 44px;
 }
 
 .img-info p {
   padding: 0px 30px 20px;
   font-size: 16px;
-  color: #fff;
+  color: black;
   line-height: 24px;
 }
 
@@ -280,3 +273,4 @@
     padding-right: 13.9px;
   }
 }
+

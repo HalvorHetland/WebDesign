@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 .hero{
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(forside.jpg);
+  background-color: black;
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -45,7 +46,7 @@
 }
 .nav-logo h1::after{
   content: '';
-  width: 0%;
+  width: 0;
   height: 2px;
   background: yellow;
   display: block;
@@ -276,3 +277,5 @@
     padding-right: 13.9px;
   }
 }
+
+
