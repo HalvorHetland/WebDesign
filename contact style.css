@@ -17,8 +17,9 @@
   padding: 40px 120px;
 }
 .nav-logo h1{
-  color: #fff;
+  color: white;
 }
+
 .nav-links{
   flex: 1;
 }
