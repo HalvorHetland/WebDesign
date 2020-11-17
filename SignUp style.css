@@ -196,8 +196,8 @@
 }
 .contactForm .inputBox input[type="submit"]{
     width: 100px;
-    background: #00bcd4;
-    color: #fff;
+    background: yellow;
+    color: black;
     border: none;
     cursor: pointer;
     padding: 10px;
