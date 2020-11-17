@@ -172,15 +172,20 @@ html {
   width: 100%;
   margin-top: 10px;
 }
+
 .btnDown{
   position: relative;
   margin-top: 55%;
+ 
 }
 
 .btnDown .arrowDownWhite{
   height: 10%;
   width: 10%;
 }
+
+
+
 .contactForm .inputBox input,
 .contactForm .inputBox textarea{
   width: 100%;
