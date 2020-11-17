@@ -196,8 +196,8 @@
 }
 .contactForm .inputBox input[type="submit"]{
     width: 100px;
-    background: yellow;
-    color: black;
+    background: #0a95f9;
+    color: white;
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -289,5 +289,6 @@
 }
 
 .container .contactForm a{
-    color: darkblue;
+    color: #0a95f9;
+    font-weight: bold;
 }
