@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a62f4e4-fe02-4b8e-a454-089797887ac3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About style.css" beforeDir="false" afterPath="$PROJECT_DIR$/About style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/News style.css" beforeDir="false" afterPath="$PROJECT_DIR$/News style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignIn style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SignIn style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignUp style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact style.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,7 @@
       <updated>1605620652715</updated>
       <workItem from="1605620655878" duration="25000" />
       <workItem from="1605620899195" duration="2017000" />
+      <workItem from="1605637089102" duration="321000" />
     </task>
     <servers />
   </component>
@@ -73,6 +78,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -21,7 +21,7 @@
 }
 .nav-bar{
   display: flex;
-  padding: 40px 120px;
+  padding: 20px 120px;
 }
 .nav-logo h1{
   color: #fff;
@@ -187,34 +187,6 @@
   display: none;
 }
 @media only screen and (min-width: 768px){
-  .wrapper {
-    width: 600px;
-    margin: 0 auto;
-  }
-
-  .img-info h2 {
-    padding: 20px 0px 0px;
-  }
-
-  .img-info p {
-    padding: 20px 0px 0px;
-  }
-
-  .img-info2 h2 {
-    padding: 20px 0px 0px;
-  }
-
-  .img-info2 p {
-    padding: 20px 0px 0px;
-  }
-
-  .img-Collect {
-    padding-top: 30px;
-  }
-
-  .img-utehus {
-    padding-top: 30px;
-  }
 
 }
 @media (max-width: 1050px){
@@ -234,7 +206,7 @@
     font-size: 50px;
   }
   .nav-bar{
-    padding: 10px 30px;
+    padding: 20px 30px;
   }
   .fa-bars{
     position: absolute;
