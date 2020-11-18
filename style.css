@@ -93,6 +93,7 @@
   font-size: 50px;
   color: black;
   line-height: 44px;
+  text-align: center;
 }
 
 .img-info2 p {
@@ -100,6 +101,7 @@
   font-size: 16px;
   color: black;
   line-height: 24px;
+  text-align: center;
 }
 .img-Collect{
   width: 100%;
@@ -264,4 +266,31 @@
     border-radius: 5px 5px 5px 5px;
   }
 
+}
+
+.linky{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: whitesmoke;
+}
+
+.linky a {
+  color: grey;
+  text-decoration: none;
+  text-transform: initial;
+}
+
+.linky a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.linky a:active {
+  color: black;
+}
+
+.linky a:visited {
+  color: black;
 }
