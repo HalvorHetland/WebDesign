@@ -74,14 +74,11 @@ html {
   border-radius: 5px 5px 5px 5px;
 }
 
-.btn2{
-  padding: 10px 20px;
-  border: 0;
-  background: yellow;
-  font-weight: bold;
-  cursor: pointer;
-  color: black;
+.btn:hover{
+  background-color: white;
+  transition:all 0.5s ease-in;
 }
+
 .nav-links .btn{
   float: right;
 }
@@ -181,7 +178,8 @@ html {
   margin-top: 55%;
  
 }
-.arrowDownWhite{
+
+.btnDown .arrowDownWhite{
   height: 10%;
   width: 10%;
 }
@@ -275,8 +273,9 @@ html {
   .fa-bars{
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
   }
+
   .nav-bar .fa{
     display: block;
     color: #fff;
