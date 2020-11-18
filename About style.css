@@ -74,14 +74,11 @@ html {
   border-radius: 5px 5px 5px 5px;
 }
 
-.btn2{
-  padding: 10px 20px;
-  border: 0;
-  background: yellow;
-  font-weight: bold;
-  cursor: pointer;
-  color: black;
+.btn:hover{
+  background-color: white;
+  transition:all 0.5s ease-in;
 }
+
 .nav-links .btn{
   float: right;
 }
@@ -152,8 +149,9 @@ html {
   color: #fff;
   flex-direction: column;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .container .contactInfo .box .text h3{
   font-weight: 500;
@@ -174,15 +172,27 @@ html {
   width: 100%;
   margin-top: 10px;
 }
+
 .btnDown{
   position: relative;
   margin-top: 55%;
+ 
 }
+
 .btnDown .arrowDownWhite{
   height: 10%;
   width: 10%;
-
 }
+
+#section3{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+
 .contactForm .inputBox input,
 .contactForm .inputBox textarea{
   width: 100%;
@@ -263,8 +273,9 @@ html {
   .fa-bars{
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
   }
+
   .nav-bar .fa{
     display: block;
     color: #fff;
