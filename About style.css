@@ -90,6 +90,7 @@ html {
 .nav-bar .fa{
   display: none;
 }
+
 .contact{
   position: relative;
   min-height: 100vh;
@@ -114,6 +115,31 @@ html {
 .contact .content p{
   font-weight: 300;
   color: #fff;
+}
+
+.btnDown{
+  position: relative;
+  margin-top: 55%;
+ 
+}
+.btnDown .arrowDownWhite{
+  height: 10%;
+  width: 10%;
+}
+.btnDown .arrowDownWhite:hover{
+  transition:all 0.2s ease-in;
+  height: 12%;
+}
+
+/*SECTION 2*/
+
+#section2{
+  height: 100vh;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
 }
 .container{
   width: 100%;
@@ -157,32 +183,9 @@ html {
   font-weight: 500;
   color: black;
 }
-.contactForm{
-  width: 40%;
-  padding: 40px;
-  background: #fff;
-}
-.contactForm h2{
-  font-size: 30px;
-  color: #333;
-  font-weight: 500;
-}
-.contactForm .inputBox{
-  position: relative;
-  width: 100%;
-  margin-top: 10px;
-}
 
-.btnDown{
-  position: relative;
-  margin-top: 55%;
- 
-}
 
-.btnDown .arrowDownWhite{
-  height: 10%;
-  width: 10%;
-}
+/*SECTION 3*/
 
 #section3{
   height: 100vh;
@@ -192,46 +195,41 @@ html {
   overflow-x: hidden;
   position: relative;
 }
+.btnDown2{
+  position: relative;
+}
+.btnDown2 .arrowDownWhite2{
+  height: 10%;
+  width: 10%;
+}
+.btnDown2 .arrowDownWhite2:hover{
+  transition:all ease-in;
+  height: 12%;
+}
 
-.contactForm .inputBox input,
-.contactForm .inputBox textarea{
-  width: 100%;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  border: none;
-  border-bottom: 2px solid #333;
-  outline: none;
-  resize: none;
-}
-.contactForm .inputBox span{
-  position: absolute;
-  left: 0;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  pointer-events: none;
-  transition: 0.5s;
-  color: #666;
-}
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span
-{
-  color: #e91e63;
-  font-size: 12px;
-  transform: translateY(-20px);
-}
-.contactForm .inputBox input[type="submit"]{
-  width: 100px;
-  background: #0a95f9;
+/*SEECTION 4*/
+.footer{
+  background-color: #1f1f1f;
   color: white;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  font-size: 18px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+    text-decoration: none;
+	padding: 10px 9px;
+
+  
 }
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.mail a.hoover{
+    color: gray;
+}
+
+
 @media (max-width: 991px) {
   .contact {
     padding: 50px;
