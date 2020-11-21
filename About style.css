@@ -9,7 +9,7 @@ html {
 }
 .hero{
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(skog.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø2.jpeg);
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
