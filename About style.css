@@ -194,7 +194,7 @@ html {
 .about{
   position: relative;
   min-height: 100vh;
-  max-width: 50%;
+  max-width: 70%;
   padding: 60px 100px;
   display: flex;
   justify-content: 50px;
@@ -222,6 +222,7 @@ html {
 .about .mission p{
   font-weight: 300;
   color: #fff;
+  
 
 }
 
