@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background: url('backpic.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 650px;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10 20px rgba(0,0,0,0.3);
+}
+
+.wrapper .title h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contactform{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.message{
+  width: 60%;
+}
+
+.input-fields .input,
+.message textarea{
+  margin: 15px 0px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+
+.message textarea{
+  height: 230px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+.btn {
+    background: #00bcd4;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+  background-color: #00899b;
+}
+.btn:active{
+  background-color: black;
+}
+.btn:visited{
+  background-color: #00bcd4;
+}
+
+@media screen and (max-width: 600px){
+  .contactform{
+    flex-direction: column;
+  }
+  .message textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .message{
+    width: 100%;
+  }
+}
