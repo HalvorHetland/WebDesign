@@ -192,19 +192,19 @@ html {
   position: relative;
 }
 .about{
-  position: relative;
-  min-height: 100vh;
-  max-width: 70%;
-  padding: 60px 100px;
   display: flex;
-  justify-content: 50px;
-  align-items: left;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
   flex-direction: column;
+  font-weight: 300;
   text-align: left;
+ 
 }
 .about .mission{
-  max-width: 800px;
-  height: 100%;
+  margin-top: 5%;
+  margin-left: 10%;
+  max-width: 30%;
   text-align: left;
   display: block;
   color: white;
@@ -222,7 +222,7 @@ html {
 .about .mission p{
   font-weight: 300;
   color: #fff;
-  
+
 
 }
 
@@ -248,7 +248,7 @@ html {
 	width: 100%;
 	text-align: center;
 	font: bold 16px sans-serif;
-    text-decoration: none;
+  text-decoration: none;
 	padding: 10px 9px;
 
   
@@ -278,6 +278,13 @@ html {
   .container .contactInfo,
   .contactForm {
     width: 100%;
+  }
+  .about .mission{
+    padding: 1%; 
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
   }
 }
 
@@ -340,5 +347,12 @@ html {
     margin-top: 50px;
     position: absolute;
     padding-right: 13.9px;
+  }
+  .about .mission{
+    padding: 1%; 
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
   }
 }
