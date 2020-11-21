@@ -184,11 +184,10 @@ html {
 
 
 /*SECTION 3*/
-#section3{
-  height: 50vh;
+.box1{
+  height: 40vh;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
   background-position: center;
- 
   position: relative;
 }
 .about{
@@ -203,12 +202,11 @@ html {
 }
 .about .mission{
   margin-top: 5%;
-  margin-left: 10%;
-  max-width: 30%;
+  margin-left: 5%;
+  max-width: 40%;
   text-align: left;
   display: block;
   color: white;
-  margin-bottom: 5%;
 }
 .about .mission h1{
   font-size: 5em;
@@ -218,63 +216,21 @@ html {
 .about .mission h3{
  margin-top: 5%;
   color: gray;
+}
+.box2{
+  float: left;
+  max-width: 50%;
+  padding: 5%;
+}
+.box3{
+  float: right;
+  max-width: 50%;
+  padding: 5%;
   
 }
 
 
 
-/*SEECTION 4*/
-
-#section4{
-  height: 100vh;
-  background-color: white;
-  position: relative;
-}
-.wrapper{
-  margin-top: 10px;
-  display: grid;
-  grid-gap: 10px;
-	grid-template-columns: 50%;
-  background-color: #fff;
-  color: #444;
-  margin-top: 10%;
-}
-.a{
-  grid-column: 1 / 2;
-  grid-row: 1;
-  margin-left: 17%;
-}
-.container1 b{
-  grid-column: 2 ;
-  grid-row: 1;
-}
-.container1 c{
-  grid-column: 1 / 2;
-  grid-row: 2;
-}
-.d{
-  grid-column: 2;
-  grid-row: 2;
-  margin-left: 17%;
-}
-.container1{
-    align-content: left;
-    color: black;
-    height: auto;
-    margin: 10px;
-    flex-wrap: wrap;
-    padding: 20px;
-    border-radius: 10px;
-    background: #fff;
-}
-.container1 h1{
-  text-align: left;
-  align-items: left;
-}
-.container1 p{
-  text-align: left;
-  margin: 40px;
-}
 
 /*FOOTER*/
 .footer{
