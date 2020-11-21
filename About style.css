@@ -184,10 +184,53 @@ html {
 
 
 /*SECTION 3*/
-
 #section3{
-  height: 100vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
+  background-position: center;
+ 
+  position: relative;
+}
+.about{
+  position: relative;
+  min-height: 100vh;
+  max-width: 70vh;
+  padding: 60px 100px;
+  display: flex;
+  justify-content: 50px;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+}
+.about .mission{
+  max-width: 800px;
+  height: 100%;
+  text-align: left;
+  display: block;
+  color: white;
+}
+.about .mission h1{
+  font-size: 5em;
+  margin-top: 3%;
+  
+}
+.about .mission h3{
+ margin-top: 5%;
+  color: gray;
+  
+}
+.about .mission p{
+  font-weight: 300;
+  color: #fff;
+
+}
+
+
+/*SEECTION 4*/
+
+#section4{
+  height: 100vh;
+  background-image: white;
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -195,7 +238,7 @@ html {
 }
 
 
-/*SEECTION 4*/
+/*FOOTER*/
 .footer{
   background-color: #1f1f1f;
   color: white;
