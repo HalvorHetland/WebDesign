@@ -283,7 +283,7 @@ html {
     max-width: 100%;
     text-align: center;
     margin-left: 0%;
-    padding: 5px;
+    padding: 2%;
   }
   .box2{
     float: left;
@@ -295,7 +295,7 @@ html {
     float: right;
     max-width: 50%;
     padding: 5%;
-    margin-top: 5;
+    margin-top: 5%;
     
   }
 }
@@ -371,7 +371,7 @@ html {
     max-width: 100%;
     text-align: center;
     margin-left: 0%;
-    padding: 5px;
+    padding: 1%;
   }
 
   .box2{
@@ -384,7 +384,7 @@ html {
     float: right;
     max-width: 50%;
     padding: 5%;
-    margin-top: 5;
+    margin-top: 5%;
     
   }
 }
