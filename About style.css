@@ -126,15 +126,12 @@ html {
   height: 10%;
   width: 10%;
 }
-.btnDown .arrowDownWhite:hover{
-  transition:all 0.2s ease-in;
-  height: 12%;
-}
+
 
 /*SECTION 2*/
 
 #section2{
-  height: 100vh;
+  height: auto;
   background-color: white;
   background-position: center;
   background-size: cover;
@@ -177,12 +174,13 @@ html {
   font-weight: 300;
   text-align: left;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 }
 .container .contactInfo .box .text h3{
   font-weight: 500;
   color: black;
 }
+
 
 
 /*SECTION 3*/
@@ -195,17 +193,7 @@ html {
   overflow-x: hidden;
   position: relative;
 }
-.btnDown2{
-  position: relative;
-}
-.btnDown2 .arrowDownWhite2{
-  height: 10%;
-  width: 10%;
-}
-.btnDown2 .arrowDownWhite2:hover{
-  transition:all ease-in;
-  height: 12%;
-}
+
 
 /*SEECTION 4*/
 .footer{

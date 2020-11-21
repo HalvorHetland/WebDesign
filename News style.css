@@ -1,20 +1,16 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 .hero{
   height: 100vh;
-  background-color: black;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø.jpeg);
   background-position: center;
-  background-size: cover;
-  overflow-x: hidden;
-  position: relative;
-}
-.hero2{
-  height: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(naturephoto.jpeg);
-  background-position: bottom;
   background-size: cover;
   overflow-x: hidden;
   position: relative;
@@ -24,8 +20,9 @@
   padding: 20px 120px;
 }
 .nav-logo h1{
-  color: #fff;
+  color: white;
 }
+
 .nav-links{
   flex: 1;
 }
@@ -45,7 +42,7 @@
 }
 .nav-logo h1::after{
   content: '';
-  width: 0;
+  width: 0%;
   height: 2px;
   background: yellow;
   display: block;
@@ -67,7 +64,6 @@
 .nav-links ul li:hover::after{
   width: 100%;
 }
-
 .btn{
   padding: 10px 20px;
   border: 0;
@@ -87,6 +83,49 @@
   float: right;
 }
 
+.nav-links .btn2{
+  float: right;
+}
+
+.nav-bar .fa{
+  display: none;
+}
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .content{
+  max-width: 800px;
+  height: 100%;
+  text-align: center;
+  display: block;
+}
+.contact .content h2{
+  font-size: 4em;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 50%;
+}
+.contact .content p{
+  font-weight: 300;
+  color: #fff;
+}
+
+.btnDown{
+  position: relative;
+  margin-top: 55%;
+ 
+}
+.btnDown .arrowDownWhite{
+  height: 10%;
+  width: 10%;
+}
 
 .banner-title{
   margin: 80px 130px;
@@ -137,6 +176,26 @@
 }
 .nav-bar .fa{
   display: none;
+}
+.footer{
+  background-color: #1f1f1f;
+  color: white;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+    text-decoration: none;
+	padding: 10px 9px;
+
+  
+}
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.mail a.hoover{
+    color: gray;
 }
 @media only screen and (min-width: 768px){
 
