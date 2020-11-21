@@ -275,19 +275,15 @@ html {
     width: 100%;
   }
   .about{
-    display: flex;
-    font-size: 16px;
-    color: #fff;
-    flex-direction: column;
-    font-weight: 300;
     text-align: center;
+    max-width: 100%;
+    padding: 0px;
    
   }
   .about .mission{ 
     max-width: 100%;
     text-align: center;
-    display: block;
-    color: white;
+    margin-left: 0%;
   }
 }
 
@@ -352,18 +348,14 @@ html {
     padding-right: 13.9px;
   }
   .about{
-    display: flex;
-    font-size: 16px;
-    color: #fff;
-    flex-direction: column;
-    font-weight: 300;
     text-align: center;
+    max-width: 100%;
+    padding: 0px;
    
   }
   .about .mission{ 
     max-width: 100%;
     text-align: center;
-    display: block;
-    color: white;
+    margin-left: 0%;
   }
 }
