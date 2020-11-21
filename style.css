@@ -180,6 +180,26 @@
 .nav-bar .fa{
   display: none;
 }
+.footer{
+  background-color: #1f1f1f;
+  color: white;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+    text-decoration: none;
+	padding: 10px 9px;
+
+  
+}
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.mail a.hoover{
+    color: gray;
+}
 @media only screen and (min-width: 768px){
   .wrapper {
     width: 600px;
