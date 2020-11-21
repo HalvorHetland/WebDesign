@@ -279,8 +279,7 @@ html {
   .contactForm {
     width: 100%;
   }
-  .about .mission{
-    padding: 1%; 
+  .about .mission{ 
     max-width: 100%;
     text-align: center;
     display: block;
@@ -348,8 +347,7 @@ html {
     position: absolute;
     padding-right: 13.9px;
   }
-  .about .mission{
-    padding: 1%; 
+  .about .mission{ 
     max-width: 100%;
     text-align: center;
     display: block;
