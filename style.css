@@ -291,19 +291,14 @@
 
   }
 }
-@media (max-width: 600px){
+@media (max-width: 650px){
   .banner-title{
     margin: 80px 50px;
   }
   .banner-title h1{
     font-size: 40px;
   }
-  .banner-title2{
-    margin: 80px 40px;
-  }
-  .banner-title2 h1{
-    font-size: 50px;
-  }
+
 }
 
 .linky{
