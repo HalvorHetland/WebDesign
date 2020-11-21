@@ -219,12 +219,7 @@ html {
   color: gray;
   
 }
-.about .mission p{
-  font-weight: 300;
-  color: #fff;
 
-
-}
 
 
 /*SEECTION 4*/
@@ -278,6 +273,15 @@ html {
   .container .contactInfo,
   .contactForm {
     width: 100%;
+  }
+  .about{
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    text-align: center;
+   
   }
   .about .mission{ 
     max-width: 100%;
@@ -346,6 +350,15 @@ html {
     margin-top: 50px;
     position: absolute;
     padding-right: 13.9px;
+  }
+  .about{
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    text-align: center;
+   
   }
   .about .mission{ 
     max-width: 100%;
