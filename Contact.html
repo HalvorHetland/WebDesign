@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
   <!--NAVBAR-->
+  <div class="hero">
   <div class="nav-bar">
     <div class="nav-logo">
       <a href="index.html" style="text-decoration:none"><h1>COLLECT</h1></a>
@@ -26,8 +28,6 @@
           <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
 
-
-
   <!--CONTENT-->
 <div class="wrapper">
   <div class="title">
@@ -42,10 +42,21 @@
     </div>
     <div class="message">
       <textarea placeholder="Message"></textarea>
-      <div class="btn">Send</div>
+      <div class="button">Send</div>
     </div>
   </div>
 </div>
+</div>
+
+<script>
+  var show = document.getElementById("nav-links");
+    function showMenu(){
+        show.style.right = "0";
+}
+function closeMenu(){
+    show.style.right = "-200px";
+}
+</script>
 
 <!--FOOTER-->
 
