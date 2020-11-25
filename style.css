@@ -54,7 +54,7 @@
   content: '';
   width: 0%;
   height: 2px;
-  background: #03b6e0;
+  background: #00bcd4;
   display: block;
   margin: auto;
   transition: .5s;
@@ -66,7 +66,7 @@
   content: '';
   width: 0%;
   height: 2px;
-  background: #03b6e0;
+  background: #00bcd4;
   display: block;
   margin: auto;
   transition: .5s;
@@ -74,6 +74,7 @@
 .nav-links ul li:hover::after{
   width: 100%;
 }
+
 .wrapper{
   width: 100%;
 }
@@ -122,7 +123,7 @@
 .btn{
   padding: 10px 20px;
   border: 0;
-  background: #03b6e0;
+  background: #00bcd4;
   font-weight: bold;
   cursor: pointer;
   color: black;
@@ -149,7 +150,7 @@
   margin-bottom: 30px;
 }
 .banner-title h1 span{
-  color: #03b6e0;
+  color: #00bcd4;
 }
 
 <!--.vertical-bar{
@@ -159,34 +160,7 @@
   left: 0;
   position: absolute;
 }
-.search-icon{
-  height: 60%;
-  width: 80px;
-}
-.search-icon .fa{
-  margin: 45px 23px;
-  display: block;
-  color: #fff;
-  font-size: 30px;
-  cursor: pointer;
-}
-.social-icons{
-  height: 35%;
-  width: 80px;
-  background: #03b6e0;
-  text-align: center;
-  padding-top: 27%;
-  bottom: 0;
-  position: absolute;
-}
-.social-icons .fa{
-  margin: 15px 23px;
-  display: block;
-  padding: 8px;
-  border: 1px solid #000;
-  border-radius: 50%;
-  cursor: pointer;
-}
+
 .nav-bar .fa{
   display: none;
   position: fixed;
@@ -200,6 +174,11 @@
     color: gray;
 }
 @media only screen and (min-width: 768px){
+  .Arrow-down .Arrow-downWhite{
+    margin-top: 200px;
+
+  }
+
   .wrapper {
     width: 600px;
     margin: 0 auto;
@@ -232,7 +211,11 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 970px){
+  .Arrow-down .Arrow-downWhite{
+    margin-top: 200px;
+  }
+
   .vertical-bar{
     display: none;
   }
@@ -284,14 +267,22 @@
   }
   .nav-links .btn{
     float: left;
+    font-size: 0.9em;
+    display: flex;
     margin-left: 25px;
     margin-top: 25px;
     border-radius: 5px 5px 5px 5px;
-
-
+  }
+  .btn{
+    padding: 10px;
   }
 }
 @media (max-width: 650px){
+  .Arrow-down .Arrow-downWhite{
+    margin-top: 300px;
+    width: 10%;
+  }
+
   .banner-title{
     margin: 80px 50px;
   }
@@ -316,7 +307,7 @@
 }
 
 .linky a:hover {
-  color: #03b6e0;
+  color: #00bcd4;
   text-decoration: underline;
 }
 
@@ -326,4 +317,28 @@
 
 .linky a:visited {
   color: black;
+}
+.Arrow-down .Arrow-downWhite{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 40px;
+}
+
+.Arrow-down .Arrow-downWhite:hover{
+  border: none;
+  background-color: #00bcd4;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+
+}
+@media (min-width: 970px){
+  .Arrow-down .Arrow-downWhite{
+    width: 8%;
+  }
 }
