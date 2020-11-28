@@ -292,7 +292,7 @@
 }
 .box1{
   height: 50vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø\ copy.jpeg);
   background-position: center;
   position: relative;
 }
