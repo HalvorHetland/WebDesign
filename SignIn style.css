@@ -24,7 +24,6 @@ body{
   background: white;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 10 20px rgba(0,0,0,0.3);
   margin-top: 50px;
 }
 
@@ -38,8 +37,6 @@ body{
 .contactform{
   display: flex;
   flex-direction: column;
-}
-.contactForm p{
 }
 
 .input-fields{
