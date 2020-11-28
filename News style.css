@@ -386,10 +386,8 @@
   height: 300px;
   margin: 20px;
   overflow: hidden;
-<<<<<<< Updated upstream
   background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.9));
   border-radius: 5px 5px 5px 5px;
-=======
   background: linear-gradient(rgba(0,0,0,1.8),rgba(0,0,0,0.6));
 }
 
@@ -400,7 +398,6 @@
   vertical-align: top;
   transition: 0.5s;
   transition-property: opacity;
->>>>>>> Stashed changes
 }
 
 .images:hover img{
