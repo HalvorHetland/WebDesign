@@ -258,6 +258,14 @@ html {
  margin-top: 2%;
   color: gray;
 }
+
+/*section 4*/
+#section4{
+  height: 50vh;
+  background-color: gray;
+  background-position: center;
+  position: relative;
+}
 .box2{
   float: left;
   max-width: 45%;
