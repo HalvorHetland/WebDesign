@@ -285,14 +285,14 @@
 
 @media (max-width: 770px){
   .about .mission h1{
-    font-size: 3em;
+    font-size: 1em;
     margin-top: 3%;
 
   }
 }
 .box1{
   height: 50vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø\ copy.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø.jpeg);
   background-position: center;
   position: relative;
 }
@@ -379,7 +379,6 @@
   height: 300px;
   margin: 20px;
   overflow: hidden;
-  background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.9));
   border-radius: 5px 5px 5px 5px;
   background: linear-gradient(rgba(0,0,0,1.8),rgba(0,0,0,0.9));
 }
@@ -551,6 +550,5 @@
     left: 40px;
     margin-top: 4px;
   }
-
 }
 
