@@ -298,14 +298,13 @@ body{
 
   .wrapper{
     margin-top: 50px;
-    max-width: 400px;
-    
+    max-width: 350px;
   }
 }
 
 #section5{
   height: 30vh;
-  background-color: white;
+  background-color: black;
   background-position: center;
   position: relative;
 }
@@ -315,6 +314,7 @@ body{
   max-width: 45%;
   padding-left: 9%;
   margin-top: 7%;
+  color: white;
 }
 .box3{
   float: right;
@@ -330,13 +330,13 @@ body{
     background: #00bcd4;
     font-weight: bold;
     cursor: pointer;
-    color: black;
+    color: white;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
   }
 
 .btnSource:hover{
-  background-color: #00899b;
+  background-color: white;
   transition: all 0.5s ease-in;
 }
 
