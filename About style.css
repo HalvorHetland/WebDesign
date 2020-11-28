@@ -169,9 +169,10 @@ html {
 .container{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   margin-top: 30px;
+  padding-left: 8%;
 }
 .container .contactInfo{
   width: 50%;
@@ -213,7 +214,7 @@ html {
 
 /*SECTION 3*/
 .box1{
-  height: 40vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
   background-position: center;
   position: relative;
@@ -232,6 +233,8 @@ html {
   margin-top: 5%;
   margin-left: 5%;
   max-width: 40%;
+  padding-top: 6%;
+  padding-left: 3%;
   text-align: left;
   display: block;
   color: white;
@@ -290,6 +293,10 @@ html {
 
   .container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1%;
+    
   }
 
   .container .contactInfo {
@@ -396,6 +403,11 @@ html {
   }
   .btn{
     padding: 10px;
+  }
+  .container{
+    justify-content: center;
+    align-items: center;
+    padding-left: 1%;
   }
   .about{
     text-align: center;
