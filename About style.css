@@ -158,7 +158,7 @@ html {
   background-size: cover;
   overflow-x: hidden;
   position: relative;
-  margin-bottom: 10%;
+  
 }
 
 .container{
@@ -200,7 +200,7 @@ html {
   flex-direction: column;
   font-weight: 300;
   text-align: left;
-  margin-top: 10%;
+  
 
 }
 .container .contactInfo .box .text h3{
@@ -210,8 +210,9 @@ html {
 
 .imgSec2{
   width: 40%;
-  padding-top: 8%;
+  padding-top: 3%;
   padding-left: 10%;
+  margin-bottom: 5%;
 }
 
 
