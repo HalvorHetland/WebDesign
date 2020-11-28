@@ -104,7 +104,6 @@
   font-size: 50px;
   color: black;
   line-height: 44px;
-  text-align: center;
 }
 
 .img-info2 p {
@@ -112,7 +111,6 @@
   font-size: 16px;
   color: black;
   line-height: 24px;
-  text-align: center;
 }
 .img-Collect{
   width: 100%;
@@ -340,5 +338,44 @@
 @media (min-width: 970px){
   .Arrow-down .Arrow-downWhite{
     width: 8%;
+  }
+}
+  @media only screen and (min-width: 1000px){
+    .wrapper{
+      width: 1000px;
+    }
+    .img-info{
+      padding-top: 100px;
+      width: 50%;
+      float: left;
+    }
+    .img-info h2 {
+    padding: 20px 0px 0px 30px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px 30px;
+  }
+  .img-info2{
+    padding-top: 100px; 
+    width: 50%;
+    float: left;
+  }
+  .img-info2 h2 {
+    padding: 50px 0px 0px 30px;
+  }
+
+  .img-info2 p {
+    padding: 20px 0px 0px 30px;
+  }
+  .img-Collect {
+    padding-top: 0px;
+    width: 50%;
+    float: right;
+  }
+  .img-utehus {
+    padding-top: 100px;
+    width: 50%;
+    float: right;
   }
 }
