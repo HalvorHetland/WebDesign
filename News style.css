@@ -4,20 +4,14 @@
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
-.hero{
-  height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
-  background-position: center;
-  background-size: cover;
-  overflow-x: hidden;
-  position: relative;
-}
+
 .nav-bar{
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
   position: fixed;
   display: flex;
   padding: 20px 20px;
   width: 100%;
+  z-index: 1;
 }
 .nav-logo h1{
   color: #fff;
@@ -274,7 +268,83 @@
   .btn{
     padding: 10px;
   }
+  .about{
+    text-align: center;
+    max-width: 100%;
+    padding: 0px;
+    margin-left: 0%;
+
+  }
+  .about .mission{
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    padding: 1%;
+    padding-top: 10%;
+  }
 }
+
+@media (max-width: 770px){
+  .about .mission h1{
+    font-size: 3em;
+    margin-top: 3%;
+
+  }
+}
+.box1{
+  height: 50vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
+  background-position: center;
+  position: relative;
+}
+.about{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+  text-align: left;
+
+}
+.about .mission{
+  margin-top: 5%;
+  margin-left: 5%;
+  max-width: 40%;
+  padding-top: 6%;
+  padding-left: 3%;
+  text-align: left;
+  display: block;
+  color: white;
+}
+.about .mission h1{
+  font-size: 4em;
+  margin-top: 2%;
+
+}
+.about .mission h3{
+  margin-top: 2%;
+  color: gray;
+}
+
+
+@media (max-width: 991px) {
+  .about{
+    text-align: center;
+    max-width: 100%;
+    padding: 0px;
+    margin-left: 0%;
+
+  }
+  .about .mission{
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    padding: 2%;
+    padding-top: 10%;
+  }
+}
+
 @media (max-width: 650px){
   .Arrow-down .Arrow-downWhite{
     margin-top: 300px;
@@ -290,53 +360,131 @@
 
 }
 
-.linky{
+.containeren{
+  margin: 20px;
+}
+.rowen{
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 10vh;
-  background-color: whitesmoke;
+  flex-wrap: wrap;
 }
 
-.linky a {
-  color: grey;
-  text-decoration: none;
-  text-transform: initial;
-}
-
-.linky a:hover {
-  color: #00bcd4;
-  text-decoration: underline;
-}
-
-.linky a:active {
-  color: black;
-}
-
-.linky a:visited {
-  color: black;
-}
-.Arrow-down .Arrow-downWhite{
-  width: 15%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px 5px 5px 5px;
-  margin-bottom: 40px;
-}
-
-.Arrow-down .Arrow-downWhite:hover{
-  border: none;
-  background-color: #00bcd4;
-  padding: 5px;
-  border-radius: 5px;
+.images img{
+  opacity: 0.2;
+  background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.9));
   position: relative;
-  box-sizing: border-box;
-  transition: all 0.5s ease;
+  vertical-align: top;
+  transition: 0.5s;
+  transition-property: opacity;
+}
+
+
+.images{
+  position: relative;
+  flex: 1;
+  max-width: 420px;
+  height: 300px;
+  margin: 20px;
+  overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.9));
+  border-radius: 5px 5px 5px 5px;
+}
+
+.images:hover img{
+  opacity: 0.4;
+  background: linear-gradient(rgba(0,0,0,2.5),rgba(0,0,0,0.9));
 
 }
-@media (min-width: 970px){
-  .Arrow-down .Arrow-downWhite{
-    width: 8%;
+
+.images .detaljer h2{
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: 250;
+  margin-top: 60px;
+  transition: 0.5s;
+  transition-property: transform;
+}
+
+.images .detaljer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.images .detaljer h2 a{
+  font-weight: 700;
+}
+
+.images:hover .detaljer h2{
+  transform: translateY(-20px);
+}
+
+.images:hover .detaljer p{
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.images .detaljer p{
+  margin: 20px 20px 0 20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+  transition-property: transform, opacity;
+}
+
+
+.mer .les-mer a{
+  font-weight: 700;
+}
+
+.mer{
+  position: absolute;
+  background: #00bcd4;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  left: -200px;
+  margin-top: 50px;
+  transition: 0.5s;
+  transition-property: left;
+  align-content: center;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.images:hover .mer{
+  left: 40px;
+  margin-top: 50px;
+}
+
+
+.mer .les-mer{
+  color: black;
+  font-size: 1.3em;
+}
+
+
+/*responsive css*/
+@media (max-width: 1000px){
+  .images{
+    flex: 100%;
+    max-width: 500px;
   }
 }
+
+@media (min-width: 700px) {
+  .mer{
+    margin-top: 4px;
+  }
+  .images:hover .mer{
+    left: 40px;
+    margin-top: 4px;
+  }
+
+}
+
