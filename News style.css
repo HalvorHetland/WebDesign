@@ -214,6 +214,10 @@
     text-align: center;
     margin-left: 0%;
     padding: 2%;
+    margin-top: 15%;
+  }
+  .box1{
+    height: 60vh;
   }
 }
 
@@ -245,7 +249,6 @@
   transition: 0.5s;
   transition-property: opacity;
 }
-
 
 .images{
   position: relative;

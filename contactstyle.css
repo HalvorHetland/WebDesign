@@ -92,7 +92,7 @@ body{
   background-color: #00899b;
 }
 .button:active{
-  background-color: black;
+  background-color: white;
 }
 .button:visited{
   background-color: #00bcd4;
@@ -313,7 +313,7 @@ body{
   float: left;
   max-width: 45%;
   padding-left: 9%;
-  margin-top: 15%;
+  margin-top: 7%;
   color: white;
 }
 .box3{
@@ -321,18 +321,17 @@ body{
   max-width: 45%;
   padding-right: 8%;
   padding-left: -10%;
-  margin-top: 15%;
+  margin-top: 7%;
   
 }
 .btnSource{
-    padding: 20px 30px;
+    padding: 15px 30px;
     border: 0;
     background: #00bcd4;
     font-weight: bold;
     cursor: pointer;
     color: white;
     border-radius: 5px 5px 5px 5px;
-    text-decoration: none;
   }
 
 .btnSource:hover{
@@ -346,4 +345,21 @@ body{
 
 .btnSource a:visited {
   color: black;
+}
+
+@media screen and (max-width: 600px){
+
+  #section5{
+    height: 30vh;
+    background-color: black;
+    background-position: center;
+    position: relative;
+  }
+  
+  .box2{
+    margin-top: 15%;
+  }
+  .box3{
+    margin-top: 15%;
+  }
 }
