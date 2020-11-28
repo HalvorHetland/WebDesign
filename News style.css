@@ -235,7 +235,7 @@
 }
 
 .containeren{
-  margin: 20px;
+  margin: 50px;
 }
 .rowen{
   width: 100%;
@@ -406,7 +406,9 @@
 .container .contactInfo .box .text h3{
   font-weight: 500;
   color: black;
+  margin-top: -60px;
 }
+
 
 .imgSec2{
   width: 40%;
