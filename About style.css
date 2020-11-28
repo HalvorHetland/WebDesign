@@ -361,6 +361,7 @@ html {
     margin-top: 3%;
 
   }
+ 
 }
 
 @media (max-width: 970px){
@@ -429,6 +430,10 @@ html {
     align-items: center;
     padding-left: 1%;
   }
+  .imgSec2{
+    width: 60%;
+    padding-left: 0%;
+  }
   .about{
     text-align: center;
     max-width: 100%;
@@ -444,17 +449,22 @@ html {
     padding-top: 10%;
   }
 
+
+  #section4{
+    height: 50vh;
+  }
+
   .box2{
     float: left;
     max-width: 50%;
     padding: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .box3{
     float: right;
     max-width: 50%;
     padding: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
     
   }
 }
