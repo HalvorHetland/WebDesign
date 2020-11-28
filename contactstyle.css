@@ -112,6 +112,8 @@ body{
   .wrapper{
     margin-top: 50px;
     max-width: 400px;
+    position: absolute;
+    z-index: 1;
   }
 }
 
@@ -128,9 +130,10 @@ body{
   }
 
   .wrapper{
-    margin-top: 10%;
+    margin-top: 50px;
     max-width: 400px;
     z-index: -1;
+    position: absolute;
   }
 }
 
