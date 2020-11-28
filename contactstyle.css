@@ -114,8 +114,7 @@ body{
     margin-top: 50px;
     max-width: 400px;
     position: absolute;
-    z-index: 1;
-    overflow: hidden;
+    z-index: -1;
   }
 }
 
@@ -134,8 +133,6 @@ body{
   .wrapper{
     margin-top: 50px;
     max-width: 400px;
-    z-index: -1;
-    position: absolute;
   }
 }
 
@@ -240,54 +237,11 @@ body{
   position: fixed;
 }
 
-
-@media (max-width: 900px){
-  .nav-bar{
-    padding: 20px 20px;
-    position: center;
-  }
-  .fa-bars{
-    position: absolute;
-    right: 20px;
-    top: 20px;
-  }
-  .nav-bar .fa{
-    display: block;
-    color: #fff;
-    margin: 10px 25px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  .nav-links{
-    height: 100vh;
-    width: 200px;
-    background-color: black;
-    top: 0;
-    right: -200px;
-    position: fixed;
-    text-align: left;
-    z-index: 2;
-    transition: 0.5s;
-  }
-  .nav-logo{
-    padding-left: 25px;
-  }
-  .nav-links ul a{
-    display: block;
-    padding-top: 25px;
-  }
-  .nav-links .btn{
-    float: left;
-    margin-left: 25px;
-    margin-top: 25px;
-    border-radius: 5px 5px 5px 5px;
-  }
-}
-
 @media (max-width: 970px){
   .nav-bar{
     padding: 20px 20px;
     position: center;
+    z-index: 1;
   }
   .fa-bars{
     position: absolute;
@@ -347,5 +301,23 @@ body{
   .wrapper{
     margin-top: 50px;
     max-width: 400px;
+    
   }
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
