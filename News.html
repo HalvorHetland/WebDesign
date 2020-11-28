@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>COLLECT</title>
   <meta name ="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="News style.css">
@@ -40,7 +41,7 @@
   <div class="containeren">
     <div class="rowen">
       <div class="images">
-        <img src="protest.jpg" alt="">
+        <img src="protest.jpg" id="img1">
         <div class="detaljer">
           <h2>JOIN OUR <a>PROTEST</a></h2>
           <p>Join us as we protest for a better world. Let us speak up!</p>
@@ -50,7 +51,7 @@
         </div>
       </div>
       <div class="images">
-        <img src="meeting.jpg" alt="">
+        <img src="meeting.jpg" id="img2">
         <div class="detaljer">
           <h2>JOIN OUR <a>MEETINGS</a></h2>
           <p>Join us at our meetings where we discuss important topics on climate change!</p>
@@ -60,7 +61,7 @@
         </div>
       </div>
       <div class="images">
-        <img src="community.jpg" alt="">
+        <img src="community.jpg" id="img3">
         <div class="detaljer">
           <h2>JOIN OUR <a>COMMUNITY</a></h2>
           <p>Join our community. Connect with other people and work together!</p>
@@ -72,52 +73,39 @@
     </div>
   </div>
 
-<br><br><br><br>
-<div class="wrapper">
-  <a id="explore"></a> <article class="img-info">
-  <h2>Who are Collect?</h2>
-  <br>
-  <p>Collect wants to encourage people to recycle more. To achieve this, we want to establish our new recycling stations around the world. By supporting Collect you will also support United Nations Sustainable Development Goals: </p>
-  <div class="linky">
-    <ul>
-      <li><a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/">Goal 12 - Sustainable consumption and production patterns</a></li>
-      <li><a href=" https://www.un.org/sustainabledevelopment/climate-change/">Goal 13 - Climate Action</a></li>
-      <li><a href="https://www.un.org/sustainabledevelopment/climate-change/">Goal 14 - Life Below Water</a></li>
-    </ul>
+  <div id="section2">
+      
+    <div class="container">
+      
+      <div class="contactInfo">
+        <div class="box">
+            <div class="text">
+              <h3><strong>Why is it important to recycle?</strong><br><br><br>
+
+                To recycle is to be environmentally conscious. By recycling, you ensure high-quality recycling of cans 
+                and plastic bottles. What does this mean? This means that the bottles and cans can be remade to new bottles 
+                and cans, or new plastic packaging. By doing this, we will reduce the use of raw materials, we reduce 
+                emissions, and we use significantly less energy in the production of new products. <br><br><br><br>
+
+                <strong>There are several environmental benefits for both plastic and aluminum:</strong> <br><br><br>
+
+                Saves oil: It is better to recycle plastic, rather than extracting new plastic from oil. 
+                We save two liters of oil by recycling one kilo of plastic.<br><br>
+
+                Saves energy: Making boxes from recycled aluminum requires 95% less energy than using new aluminum.<br><br>
+
+                Less CO2 emissions: Recycled packaging is lighter and takes up less space than reusable bottles 
+                because they can be compressed in the pawn shop. This is how we save the environment for extra 
+                transport and reduce CO2 emissions.<br>
+                </h3>
+            </div>
+          </div>
+      </div>
+     
+    </div>
   </div>
-</article>
-  <img class="img-Collect" src="Collect.jpg" alt="">
-  <img class="img-utehus" src="utehus.jpg" alt="Recycle med flere folk">
-  <article class="img-info2">
-    <h2>Collect Stations</h2>
-    <p>By using our Collect Stations, you will contribute to less consumption and emissions. The station has two different containers. One container for glass and metal packaging, and one container for plastic bottles and cans. </p>
-    <p><a href="about.html">Read more</a></p>
-  </article>
-</div>
 </div>
 <div>
-  <div id="section4">
-    <footer class="footer">
-      <div class="footer-right">
-        <h5>Contact information:</h5>
-        <div>
-          <i class="place"></i>
-          <p><span>Løkkaveien 40b</span> 0850 Oslo, Norway</p>
-        </div>
-
-        <div>
-          <i class="phone"></i>
-          <p>+47 454 668 02</p>
-        </div>
-
-        <div>
-          <i class="mail"></i>
-          <p><a class="mail" href="mailto:collect@gmail.com">collect@gmail.com</a></p>
-        </div>
-
-      </div>
-    </footer>
-  </div>
 </div>
 <script>
   var show = document.getElementById("nav-links");
@@ -126,6 +114,17 @@
   }
   function closeMenu(){
     show.style.right = "-200px";
+  }
+
+  
+  var img1 = document.getElementById("img1");
+  var img2 = document.getElementById("img2");
+  var img3 = document.getElementById("img3");
+  var detaljer = document.getElementsByClassName("detaljer");
+  
+  img1.onclick = function(){
+      detaljer.innerHTML = "<h2>JOIN OUR <a>COMMUNITY</a></h2>";
+      detaljer.innerHTML += "<p>Join our community. Connect with other people and work together!</p>";
   }
 </script>
 </body>
