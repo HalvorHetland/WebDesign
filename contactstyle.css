@@ -113,8 +113,6 @@ body{
   .wrapper{
     margin-top: 50px;
     max-width: 400px;
-    position: absolute;
-    z-index: -1;
   }
 }
 
@@ -305,4 +303,47 @@ body{
   }
 }
 
+#section5{
+  height: 30vh;
+  background-color: white;
+  background-position: center;
+  position: relative;
+}
 
+.box2{
+  float: left;
+  max-width: 45%;
+  padding-left: 9%;
+  margin-top: 7%;
+}
+.box3{
+  float: right;
+  max-width: 45%;
+  padding-right: 8%;
+  padding-left: -10%;
+  margin-top: 7%;
+  
+}
+.btnSource{
+    padding: 20px 30px;
+    border: 0;
+    background: #00bcd4;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+  }
+
+.btnSource:hover{
+  background-color: #00899b;
+  transition: all 0.5s ease-in;
+}
+
+.btnSource a:active {
+  color: black;
+}
+
+.btnSource a:visited {
+  color: black;
+}

@@ -4,7 +4,6 @@
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
-
 .nav-bar{
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
   position: fixed;
@@ -293,7 +292,7 @@
 }
 .box1{
   height: 50vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø.jpeg);
   background-position: center;
   position: relative;
 }
@@ -383,11 +382,21 @@
   overflow: hidden;
   background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.9));
   border-radius: 5px 5px 5px 5px;
+  background: linear-gradient(rgba(0,0,0,1.8),rgba(0,0,0,0.6));
+}
+
+.images img{
+  opacity: 0.2;
+  background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.0));
+  position: relative;
+  vertical-align: top;
+  transition: 0.5s;
+  transition-property: opacity;
 }
 
 .images:hover img{
   opacity: 0.4;
-  background: linear-gradient(rgba(0,0,0,2.5),rgba(0,0,0,0.9));
+  background: linear-gradient(rgba(0,0,0,2.5),rgba(0,0,0,1.0));
 
 }
 
