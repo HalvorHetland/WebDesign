@@ -7,14 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
-.hero{
-  height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø2.jpeg);
-  background-position: center;
-  background-size: cover;
-  overflow-x: hidden;
-  position: relative;
-}
+
 .nav-bar{
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
   position: fixed;
@@ -182,6 +175,7 @@ html {
   display: flex;
   flex-direction: column;
   float: left;
+  padding-top: 5%;
 }
 .container .contactInfo .box{
   position: relative;
@@ -216,7 +210,7 @@ html {
 
 .imgSec2{
   width: 40%;
-  padding-top: 2%;
+  padding-top: 8%;
   padding-left: 10%;
 }
 
@@ -224,7 +218,7 @@ html {
 /*SECTION 3*/
 .box1{
   height: 50vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast1.jpeg);
   background-position: center;
   position: relative;
 }
