@@ -219,6 +219,9 @@
   .box1{
     height: 60vh;
   }
+  .container .contactInfo{
+    width: 100%;
+  }
 }
 
 @media (max-width: 650px){
