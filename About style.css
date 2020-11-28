@@ -165,7 +165,9 @@ html {
   background-size: cover;
   overflow-x: hidden;
   position: relative;
+  margin-bottom: 10%;
 }
+
 .container{
   width: 100%;
   display: flex;
@@ -173,11 +175,13 @@ html {
   align-items: left;
   margin-top: 30px;
   padding-left: 8%;
+  
 }
 .container .contactInfo{
   width: 50%;
   display: flex;
   flex-direction: column;
+  float: left;
 }
 .container .contactInfo .box{
   position: relative;
@@ -203,13 +207,18 @@ html {
   font-weight: 300;
   text-align: left;
   margin-top: 10%;
-  margin-bottom: 12%;
+
 }
 .container .contactInfo .box .text h3{
   font-weight: 500;
   color: black;
 }
 
+.imgSec2{
+  width: 40%;
+  padding-top: 2%;
+  padding-left: 10%;
+}
 
 
 /*SECTION 3*/
@@ -248,16 +257,35 @@ html {
  margin-top: 2%;
   color: gray;
 }
+
+/*SECTION 4*/
+#section4{
+  height: 40vh;
+  background-color:  rgba(28, 180, 218, 0.425);
+  background-position: center;
+  position: relative;
+}
 .box2{
   float: left;
-  max-width: 50%;
-  padding: 5%;
+  max-width: 45%;
+  padding-left: 9%;
+  margin-top: 7%;
 }
 .box3{
   float: right;
-  max-width: 50%;
-  padding: 5%;
+  max-width: 45%;
+  padding-right: 8%;
+  padding-left: -10%;
+  margin-top: 7%;
   
+}
+
+/*SECTION 5*/
+#section5{
+  height: 30vh;
+  background-color: white;
+  background-position: center;
+  position: relative;
 }
 
 
@@ -267,23 +295,14 @@ html {
 .footer{
   background-color: #1f1f1f;
   color: white;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	font: bold 16px sans-serif;
-  text-decoration: none;
-	padding: 10px 9px;
+  width: 100%;
+  padding: 2%;
+  height: 30%;
+	
 
   
 }
-.mail{
-    text-decoration: none;
-    color: white;
-}
-.mail a.hoover{
-    color: gray;
-}
+
 
 
 @media (max-width: 991px) {
@@ -319,6 +338,7 @@ html {
     text-align: center;
     margin-left: 0%;
     padding: 2%;
+    padding-top: 10%;
   }
   .box2{
     float: left;
@@ -421,6 +441,7 @@ html {
     text-align: center;
     margin-left: 0%;
     padding: 1%;
+    padding-top: 10%;
   }
 
   .box2{
