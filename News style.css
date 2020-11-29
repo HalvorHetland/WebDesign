@@ -473,20 +473,19 @@ footer{
 
  .footeren a{
    text-decoration: none;
+   color: white;
  }
 
  .høyre-footer{
+   flex-flow: row wrap;
    display: -webkit-flex;
    display: -moz-flex;
-   display: -ms-flex;
    display: -o-flex;
+   display: -ms-flex;
    display: flex;
-   flex-flow: row wrap;
  }
 
- .venstre-footer h1{
-   padding-left: 100px;
- }
+
 
  .høyre-footer > *{
    flex: 1 50%;
@@ -540,12 +539,18 @@ footer{
   }
 
   .sosiale a img{
-    margin-right: auto;
-    margin-left: auto;
     width: 7%;
+    margin-left: 50px;
   }
   .høyre-footer{
     text-align: center;
     padding-top: 20px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .sosiale a img{
+    width: 10%;
+  }
+
 }
