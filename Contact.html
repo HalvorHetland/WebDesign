@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="page-container">
-    <div class="content-wrap">
-
   <!--NAVBAR-->
   <div class="hero">
   <div class="nav-bar">
@@ -37,39 +34,28 @@
   </div>
   <div class="contactform">
     <div class="input-fields">
-      <input type="text" class="input"  name="name" id="name" placeholder="Name">
-      <input type="text" class="input"  name="email" id="email" placeholder="Email Address">
-      <input type="text" class="input" name="phone" id="phone" placeholder="Phone">
-      <input type="text" class="input" name="subject" id="subject" placeholder="Subject">
+      <label for="name">Name</label>
+      <input type="text" class="input"  name="name" id="name" placeholder="">
+
+      <label for="email">Email address</label>
+      <input type="text" class="input"  name="email" id="email" placeholder="">
+
+      <label for="phone">Phone</label>
+      <input type="text" class="input" name="phone" id="phone" placeholder="">
+
+      <label for="subject">Subject</label>
+      <input type="text" class="input" name="subject" id="subject" placeholder="">
     </div>
     <div class="message">
-      <textarea placeholder="Message"></textarea>
+      <label for="msg">Message</label>
+      <textarea placeholder=""></textarea>
       <div class="button">Send</div>
     </div>
   </div>
 </div>
 </div>
-<br><br>
 
 <!--FOOTER-->
-<div>
-  <div id="section5">
-
-    <div class="box2">
-          <p>Osloveien 82B <br> 0858, Oslo <br>+47 982 84 672</p>
-          <br>
-          <hr>
-    </div>
-
-    <div class="box3">
-      <button class="btnSource">
-        <a href="sources.html" style="font-weight: bold; text-decoration: none;">SOURCES</a>
-        </button>
-    </div>
-
-  </div>
-</div>
-
         <script>
             var show = document.getElementById("nav-links");
             function showMenu(){
