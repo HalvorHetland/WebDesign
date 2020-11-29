@@ -114,8 +114,6 @@ body{
   .wrapper{
     margin-top: 50px;
     max-width: 400px;
-    position: absolute;
-    z-index: -1;
   }
 }
 
@@ -225,7 +223,7 @@ body{
 
 .btn:hover{
   background-color: white;
-  transition:all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 
@@ -302,7 +300,6 @@ body{
   .wrapper{
     margin-top: 50px;
     max-width: 400px;
-
   }
 }
 
