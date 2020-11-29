@@ -522,7 +522,10 @@ footer{
    padding-top: 21px;
    width: 10%;
    padding-right: 5%;
+   border-radius: 5px 5px 5px 5px;
  }
+
+
 
  @media screen and (min-width: 900px) {
    .høyre-footer > *{
@@ -543,7 +546,7 @@ footer{
 
   .sosiale a img{
     width: 10%;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 40px;
   }
   .høyre-footer{
@@ -559,12 +562,13 @@ footer{
 @media screen and (max-width: 600px) {
   .sosiale a img{
     width: 8%;
+    margin-left: 10px;
   }
 }
 
 @media screen and (max-width: 550px){
   .sosiale a img{
     padding: 5px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 }
