@@ -43,11 +43,13 @@
       <div class="images">
         <img src="protest.jpg" id="img1">
         <div class="detaljer">
+          <div id="info1">
           <h2>JOIN THE <a>MOVEMENT</a></h2>
           <p>Join us as we protest for a better world. Let us speak up!</p>
           <div class="mer">
             <a href="SignIn.html" class="les-mer" style="text-decoration:none">READ MORE</a>
           </div>
+        </div>
         </div>
       </div>
       <div class="images">
@@ -118,11 +120,13 @@
   var img2 = document.getElementById("img2");
   var img3 = document.getElementById("img3");
   var detaljer = document.getElementsByClassName("detaljer");
+  var info1 = document.getElementById("info1");
   
   img1.onclick = function(){
-      detaljer.innerHTML = "<h2>JOIN OUR <a>COMMUNITY</a></h2>";
-      detaljer.innerHTML += "<p>Join our community. Connect with other people and work together!</p>";
+      info1.innerHTML = "<h2>JOIN OUR <a>COMMUNITY</a></h2>";
+      info1.innerHTML += "<p>Join our community. Connect with other people and work together!</p>";
   }
+  
 </script>
 </body>
 </html>
