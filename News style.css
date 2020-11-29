@@ -322,6 +322,10 @@
   transition-property: transform, opacity;
 }
 
+.images .detaljer a{
+  color: white;
+}
+
 
 .mer .les-mer a{
   font-weight: 700;
@@ -479,9 +483,7 @@ footer{
  .høyre-footer{
    flex-flow: row wrap;
    display: -webkit-flex;
-   display: -moz-flex;
-   display: -o-flex;
-   display: -ms-flex;
+
    display: flex;
  }
 
@@ -499,7 +501,7 @@ footer{
  .bunn-footer{
    text-align: center;
    color: gray;
-   padding-top: 50px;
+   padding-top: 51px;
  }
 
  .venste-footer p{
@@ -539,8 +541,9 @@ footer{
   }
 
   .sosiale a img{
-    width: 7%;
+    width: 10%;
     margin-left: 50px;
+    margin-top: 40px;
   }
   .høyre-footer{
     text-align: center;
@@ -562,6 +565,5 @@ footer{
   .sosiale a img{
     padding: 10px;
     margin-left: 30px;
-    margin-top: 40px;
   }
 }
