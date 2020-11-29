@@ -322,7 +322,6 @@
   transition-property: transform, opacity;
 }
 
-
 .images .detaljer a{
   color: white;
 }
@@ -445,10 +444,6 @@
 }
 
 footer{
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   flex-flow: row wrap;
   padding: 50px;
