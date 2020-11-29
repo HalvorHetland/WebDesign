@@ -176,6 +176,7 @@
   border-radius: 5px 5px 5px 5px;
   position: relative;
   margin-left: 6%;
+  z-index: -1;
 }
 
 .moreBtn:hover{
