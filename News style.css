@@ -321,7 +321,13 @@
   transition: 0.5s;
   transition-property: transform, opacity;
 }
+@media screen and (max-width: 600px){
+  .images .detaljer p{
+    font-size: 0.9em;
+    font-weight: 300;
+  }
 
+}
 .images .detaljer a{
   color: white;
 }
