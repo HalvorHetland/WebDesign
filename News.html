@@ -43,7 +43,7 @@
       <div class="images" id="img1">
         <img src="protest.jpg" >
         <div class="detaljer">
-          <div class="detaljer" id="det1">
+          <div class="detaljer">
           <h2>JOIN THE <a>MOVEMENT</a></h2>
           <p>Join us as we protest for a better world. Let us speak up!</p>
           <div class="mer" id="mer1">
@@ -57,7 +57,7 @@
         <div class="detaljer" id="det2">
           <h2>JOIN THE <a>MEETINGS</a></h2>
           <p>Join us at our meetings where we discuss important topics on climate change!</p>
-          <div class="mer" id="mer2">
+          <div class="mer">
             <a href="SignIn.html" class="les-mer" style="text-decoration:none">READ MORE</a>
           </div>
         </div>
@@ -67,7 +67,7 @@
         <div class="detaljer" id="det3">
           <h2>JOIN THE <a>COMMUNITY</a></h2>
           <p>Join our community. Connect with other people and work together!</p>
-          <div class="mer" id="mer3">
+          <div class="mer">
             <a href="SignIn.html" class="les-mer" style="text-decoration:none">READ MORE</a>
           </div>
         </div>
@@ -129,19 +129,29 @@
   var mer3 = document.getElementById("mer3");
   
   img1.onclick = function(){
-      det1.innerHTML = " <h2>JOIN THE <a>MEETINGS</a></h2>";
+      det1.innerHTML = " <h2>JOIN THE <a>MOVEMENT</a></h2>";
       det1.innerHTML += "<p>Join us as we protest for a better world. Let us speak up!</p>";
-      mer1.innerHTML = " <a href='SignIn.html' class='les-mer' style='text-decoration:none'>READ MORE</a>"
+      det1.innerHTML += "<a href='SignIn.html' class='les-mer' style='text-decoration:none'>READ MORE</a>";
+
+      det2.innerHTML = " <h2>JOIN THE <a>MEETINGS</a></h2>";
+      det3.innerHTML = "<h2>JOIN THE <a>COMMUNITY</a></h2>";
+      
   }
   img2.onclick = function(){
       det2.innerHTML = "<h2>JOIN THE <a>MEETINGS</a></h2>";
       det2.innerHTML += "<p>Join us at our meetings where we discuss important topics on climate change!</p>";
-      mer2.innerHTML = " <a href='SignIn.html' class='les-mer' style='text-decoration:none'>READ MORE</a>";
+      det2.innerHTML += "<a href='SignIn.html' class='les-mer' style='text-decoration:none'>READ MORE</a>";
+
+      det1.innerHTML = " <h2>JOIN THE <a>MOVEMENT</a></h2>";
+      det3.innerHTML = "<h2>JOIN THE <a>COMMUNITY</a></h2>";
   }
   img3.onclick = function(){
       det3.innerHTML = "<h2>JOIN THE <a>COMMUNITY</a></h2>";
       det3.innerHTML += "<p>Join our community. Connect with other people and work together!</p>";
-      mer3.innerHTML = " <a href='SignIn.html' class='les-mer' style='text-decoration:none'>READ MORE</a>"
+      det3.innerHTML += "<a href='SignIn.html' class='les-mer' style='text-decoration:none'>READ MORE</a>";
+
+      det1.innerHTML = " <h2>JOIN THE <a>MOVEMENT</a></h2>";  
+      det2.innerHTML = "<h2>JOIN THE <a>MEETINGS</a></h2>";    
   }
   
 

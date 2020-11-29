@@ -172,6 +172,7 @@
   font-weight: bold;
   cursor: pointer;
   color: black;
+  text-align: center;
   border-radius: 5px 5px 5px 5px;
   position: relative;
   margin-left: 6%;
@@ -186,9 +187,8 @@
   background-color: rgba(57, 187, 204, 0.842);
   background-position: center;
   background-size: cover;
-  overflow-x: hidden;
   position: relative;
-  
+
 }
 
 
