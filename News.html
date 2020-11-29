@@ -40,10 +40,10 @@
   </div>
   <div class="containeren">
     <div class="rowen">
-      <div class="images">
-        <img src="protest.jpg" id="img1">
+      <div class="images" id="img1">
+        <img src="protest.jpg" >
         <div class="detaljer">
-          <div id="info1">
+          <div class="detaljer" id="det1">
           <h2>JOIN THE <a>MOVEMENT</a></h2>
           <p>Join us as we protest for a better world. Let us speak up!</p>
           <div class="mer">
@@ -52,9 +52,9 @@
         </div>
         </div>
       </div>
-      <div class="images">
-        <img src="meeting.jpg" id="img2">
-        <div class="detaljer">
+      <div class="images" id="img2">
+        <img src="meeting.jpg">
+        <div class="detaljer" id="det2">
           <h2>JOIN THE <a>MEETINGS</a></h2>
           <p>Join us at our meetings where we discuss important topics on climate change!</p>
           <div class="mer">
@@ -62,9 +62,9 @@
           </div>
         </div>
       </div>
-      <div class="images">
-        <img src="community.jpg" id="img3">
-        <div class="detaljer">
+      <div class="images" id="img3">
+        <img src="community.jpg">
+        <div class="detaljer" id="det3">
           <h2>JOIN THE <a>COMMUNITY</a></h2>
           <p>Join our community. Connect with other people and work together!</p>
           <div class="mer">
@@ -119,14 +119,17 @@
   var img1 = document.getElementById("img1");
   var img2 = document.getElementById("img2");
   var img3 = document.getElementById("img3");
+  var det1 = document.getElementById("det1");
+  var det2 = document.getElementById("det2");
+  var det3 = document.getElementById("det3");
   var detaljer = document.getElementsByClassName("detaljer");
   var info1 = document.getElementById("info1");
   
   img1.onclick = function(){
-      info1.innerHTML = "<h2>JOIN OUR <a>COMMUNITY</a></h2>";
-      info1.innerHTML += "<p>Join our community. Connect with other people and work together!</p>";
+      det1.innerHTML = "<h2>JOIN OUR <a>COMMUNITY</a></h2>";
+      det1.innerHTML += "<p>Join our community. Connect with other people and work together!</p>";
   }
-  
+
 </script>
 </body>
 </html>
