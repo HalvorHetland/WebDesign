@@ -117,6 +117,7 @@
 }
 .img-utehus{
   width: 100%;
+  
 }
 
 .btn{
@@ -180,6 +181,24 @@
 }
 
 .moreBtn:hover{
+  background-color: rgba(128, 128, 128, 0.575);
+  transition:all 0.5s ease-in;
+}
+.btnUN{
+  padding: 10px 18px;
+  border: 0;
+  background: #00bcd4;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  margin-left: 6%;
+  z-index: -1;
+}
+
+.btnUN:hover{
   background-color: rgba(128, 128, 128, 0.575);
   transition:all 0.5s ease-in;
 }
@@ -300,8 +319,15 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
-    width: 22%;
+    width: 25%;
     margin-bottom: 15%;
+  }
+  .btnUN{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 25%;
+    
   }
   
 }
@@ -389,7 +415,7 @@
   }
   .img-info2{
     padding-top: 100px; 
-    width: 50%;
+    width: 47%;
     float: left;
   }
   .img-info2 h2 {
@@ -406,8 +432,9 @@
   }
   .img-utehus {
     padding-top: 100px;
-    width: 50%;
+    width: 37%;
     float: right;
+    padding-right: 14%;
   }
  
 }
