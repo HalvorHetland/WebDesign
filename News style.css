@@ -231,7 +231,9 @@
   .banner-title h1{
     font-size: 40px;
   }
-
+  .container .contactInfo{
+    width: 100%;
+  }
 }
 
 .containeren{
@@ -422,6 +424,7 @@
     flex: 100%;
     max-width: 500px;
   }
+ 
 }
 
 @media (min-width: 700px) {
@@ -432,5 +435,6 @@
     left: 40px;
     margin-top: 4px;
   }
+ 
 }
 
