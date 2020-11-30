@@ -223,6 +223,7 @@
   .container .contactInfo{
     width: 100%;
   }
+
 }
 
 @media (max-width: 650px){
@@ -241,6 +242,14 @@
   margin: 50px;
 }
 
+.container .contactInfo .box .text .source{
+  align-content: center;
+  width: 100%;
+  
+}
+.container .contactInfo .box .text .source .img{
+height: 100px;
+}
 @media screen and (max-width: 600px){
   
 }
