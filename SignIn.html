@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div id="page-container">
-    <div id="content-wrap">
 
   <!--NAVBAR-->
   <div class="hero">
@@ -25,7 +23,7 @@
               <a href="News.html"><li>NEWS</li></a>
               <a href="Contact.html"><li>CONTACT</li></a>
             </ul>
-            <a href="SignIn.html" style="text-decoration:none" button type="button" class="btn">SIGN IN</button></a>
+            <a href="SignIn.html" style="text-decoration:none" class="btn">SIGN IN</a>
           </div>
           <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
@@ -37,8 +35,11 @@
   </div>
   <div class="contactform">
     <div class="input-fields">
-      <input type="text" class="input" placeholder="Username">
-      <input type="text" class="input" placeholder="Password">
+      <label for="username">Username</label>
+      <input type="text" class="input" name="username" id="username" placeholder=" ">
+
+      <label for="password"> Password</label>
+      <input type="text" class="input" name="password" id="password" placeholder=" ">
       <div class="button">Continue</div>
       <br>
       <div class="container">
@@ -50,7 +51,6 @@
     </div>
     </div>
   </div>
-</div>
 </div>
       <footer class="footeren">
           <div class="venste-footer">
