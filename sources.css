@@ -290,7 +290,7 @@
   margin-right: auto;
   margin-left: auto;
   display: block;
-  background-color: rgba(124, 121, 121, 0.705);
+  background-color: rgba(139, 136, 136, 0.527);
   padding: 2.1%;
   margin-top: 5%;
   justify-content: left;
@@ -298,6 +298,12 @@
 .section-members .members h3{
   font-weight: 500;
   color: black;
+}
+.section-members .members .members-text{
+  color: rgba(0, 0, 0, 0.726);
+  flex-direction: column;
+  font-weight: 300;
+  padding-left: 4%;
 }
 /*SECTION 1*/
 
