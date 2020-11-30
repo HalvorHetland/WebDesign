@@ -319,15 +319,13 @@
 }
 .container .contactInfo .box .text .source .source-img{
   float: left;
-  width: 80%;
+  width: 10%;
   align-content: center;
-
- 
- 
-  
+  height: auto;
+  margin-left: 30%;
 }
-.container .contactInfo .box .text .source .source-img .img{
-  height: 200px;
+.container .contactInfo .box .text .source .img{
+height: 200px;
 }
 .container .contactInfo .box .text h3{
   font-weight: 500;
