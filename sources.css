@@ -11,6 +11,7 @@
   padding: 20px 20px;
   width: 100%;
   z-index: 1;
+
 }
 .nav-logo h1{
   color: #fff;
@@ -166,7 +167,7 @@
 }
 .box1{
   height: 50vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(miljø.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
   background-position: center;
   position: relative;
 }
@@ -239,139 +240,23 @@
 .containeren{
   margin: 50px;
 }
-.rowen{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
-.images img{
-  opacity: 0.2;
-  background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.9));
-  position: relative;
-  vertical-align: top;
-  transition: 0.5s;
-  transition-property: opacity;
-}
-
-.images{
-  position: relative;
-  flex: 1;
-  max-width: 420px;
-  height: 300px;
-  margin: 20px;
-  overflow: hidden;
-  border-radius: 5px 5px 5px 5px;
-  background: linear-gradient(rgba(0,0,0,1.8),rgba(0,0,0,0.9));
-}
-
-.images img{
-  opacity: 0.2;
-  background: linear-gradient(rgba(0,0,0,1.4),rgba(0,0,0,0.0));
-  position: relative;
-  vertical-align: top;
-  transition: 0.5s;
-  transition-property: opacity;
-}
-
-.images:hover img{
-  opacity: 0.4;
-  background: linear-gradient(rgba(0,0,0,2.5),rgba(0,0,0,1.0));
-
-}
-
-.images .detaljer h2{
-  text-align: center;
-  font-size: 2.1em;
-  font-weight: 250;
-  margin-top: 60px;
-  transition: 0.5s;
-  transition-property: transform;
-}
-
-.images .detaljer{
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: white;
-  width: 100%;
-  height: 100%;
-}
-
-.images .detaljer h2 a{
-  font-weight: 700;
-}
-
-.images:hover .detaljer h2{
-  transform: translateY(-20px);
-}
-
-.images:hover .detaljer p{
-  opacity: 1;
-  transform: translateY(-20px);
-}
-
-.images .detaljer p{
-  margin: 20px 20px 0 20px;
-  font-size: 1.2em;
-  font-weight: 500;
-  text-align: center;
-  opacity: 0;
-  transition: 0.5s;
-  transition-property: transform, opacity;
-}
 @media screen and (max-width: 600px){
-  .images .detaljer p{
-    font-size: 0.9em;
-    font-weight: 300;
-  }
-
-}
-.images .detaljer a{
-  color: white;
-}
-
-
-.mer .les-mer a{
-  font-weight: 700;
-}
-
-.mer{
-  position: absolute;
-  background: #00bcd4;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  left: -200px;
-  margin-top: 50px;
-  transition: 0.5s;
-  transition-property: left;
-  align-content: center;
-  border-radius: 5px 5px 5px 5px;
-}
-
-.images:hover .mer{
-  left: 40px;
-  margin-top: 50px;
-}
-
-.mer .les-mer{
-  color: black;
-  font-size: 1.3em;
+  
 }
 
 
 
-/*SECTION 2*/
+/*SECTION 1*/
 
-#section2{
-  height: auto;
+#section1{
+  height: 100%;
   background-color: white;
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
   position: relative;
+ 
 
 }
 
@@ -379,15 +264,28 @@
   width: 100%;
   display: flex;
   justify-content: left;
-  margin-top: 30px;
+  margin-top: 1%;
   padding-left: 8%;
+  margin-bottom: 5%;
 
 }
+.container .members{
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(128, 128, 128, 0.678);
+  position: relative;
+}
+
+.container .members h3{
+  font-weight: 500;
+  color: black;
+}
 .container .contactInfo{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  float: left;
   padding-top: 5%;
 }
 .container .contactInfo .box{
@@ -395,57 +293,66 @@
   padding: 20px 0;
   display: flex;
 }
-.container .contactInfo .box .icon{
-  min-width: 60px;
-  height: 60px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 22px;
-}
+
+
 .container .contactInfo .box .text{
   display: flex;
   margin-left: 20px;
   font-size: 16px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.726);
   flex-direction: column;
   font-weight: 300;
   text-align: left;
-
-
+  width: 80%;
+  
+}
+.container .contactInfo .box .text .source{
+  background-color: #00bbd45d;
+}
+.container .contactInfo .box .text .source .source-innhold{
+  padding: 5%;
+  float: left;
+  
+}
+.container .contactInfo .box .text .source a {
+  text-decoration: none;
+  color: gray;
+}
+.container .contactInfo .box .text .source a:hover{
+  color: white;
+}
+.container .contactInfo .box .text .source .source-img{
+  float: left;
+  width: 30%;
+  align-content: center;
+  
+ 
+ 
+  
+}
+.container .contactInfo .box .text .source .source-img .img{
+  height: 200px;
 }
 .container .contactInfo .box .text h3{
   font-weight: 500;
   color: black;
-  margin-top: -60px;
+  padding: 5%;
+  
+}
+.bold-text{
+  color: rgba(17, 54, 109, 0.863);
+  font-weight: bold;
 }
 
 
-.imgSec2{
-  width: 40%;
-  padding-top: 3%;
-  padding-left: 10%;
-  margin-bottom: 5%;
-}
+
 /*responsive css*/
 @media (max-width: 1000px){
-  .images{
-    flex: 100%;
-    max-width: 500px;
-  }
-
+  
 }
 
 @media (min-width: 700px) {
-  .mer{
-    margin-top: 4px;
-  }
-  .images:hover .mer{
-    left: 40px;
-    margin-top: 4px;
-  }
+  
 
 }
 
