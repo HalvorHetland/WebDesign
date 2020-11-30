@@ -116,7 +116,7 @@
   }
 
   .nav-links{
-    height: 48vh;
+    height: auto;
     width: 100%;
     background-color: black;
     top: -500px;
@@ -143,6 +143,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
+    margin-bottom: auto;
   }
   .btn{
   }
