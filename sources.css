@@ -361,7 +361,7 @@
 }
 .container .contactInfo .box .text .source .source-img{
   float: left;
-  
+  margin-top: 2%;
   align-content: center;
   height: auto;
   margin-left: 30%;
