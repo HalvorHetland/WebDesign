@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>COLLECT</title>
   <meta name ="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="News style.css">
+  <link rel="stylesheet" href="sources.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -29,10 +29,9 @@
     <div class="about">
       <div class="mission">
         <br>
-        <h3>News</h3>
-        <h1>KEEP UP</h1>
+        <h1>SOURCES</h1>
         <h5>
-          Keep up with our latest events. We want you to join us working towards saving the planet.
+          Here you will find all the sources that we have used during our development of the website.
         </h5>
 
       </div>
@@ -44,26 +43,26 @@
         <img src="protest.jpg" alt="">
         <div class="detaljer">
           <div class="detaljer" id="det1">
-          <h2>JOIN THE <strong> MOVEMENT </strong></h2>
-            <p>Join us as we work towards a better world. Don't be afraid to speak up! <br> <br> <strong><a href="SignIn.html" style="text-decoration: none"> SIGN IN </a></strong></p>
-  
+          <h2><strong> INFORMATION </strong></h2>
+            <p>Here you will find the sources we used for all information <br> <strong><a href="info.html" style="text-decoration: none"> Read here </a></strong></p>
+
         </div>
         </div>
-       
+
       </div>
       <div class="images" id="img2">
         <img src="meeting.jpg" alt=" ">
         <div class="detaljer" id="det2">
-          <h2>JOIN THE <strong>MEETINGS</strong> </h2>
-          <p>Join us at our meetings. Discussing important topics on climate change! <br> <br> <strong><a href="SignIn.html" style="text-decoration: none"> SIGN IN </a></strong></p>
+          <h2><strong>IMAGES/VIDEOES</strong> </h2>
+          <p>Here you will find the sources we used for the images and videoes we have taken inspiration from <br> <strong><a href="img-vid.html" style="text-decoration: none"> Read here </a></strong></p>
         </div>
       </div>
       <div class="images" id="img3">
         <img src="community.jpg" alt=" ">
         <div class="detaljer" id="det3">
-          <h2>JOIN THE <strong>COMMUNITY</strong></h2>
-          <p>Join our community. Connect with other people and work together! <br> <br> <strong><a href="SignIn.html" style="text-decoration: none"> SIGN IN </a></strong></p>
-          </div>
+          <h2><strong>GROUP MEMBERS</strong></h2>
+          <p>Here you will find all the members that have worked on this website <br> <strong><a href="group.html" style="text-decoration: none"> Read here </a></strong></p>
+        </div>
       </div>
     </div>
   </div>
@@ -72,15 +71,17 @@
       <div class="contactInfo">
         <div class="box">
             <div class="text">
-              <h3><strong>We want you on the team!</strong><br><br>
+              <h3><strong>INFORMATION:</strong><br><br>
 
-                We will post updates, news and events to make it easier for our audience to engage in climate action.<br>
-                <strong>Collect</strong>  will do its best to make it as easy as possible for you to contribute to a better environment.
-                <br><br><br><br>
+                <strong>[1] - Jeg vet ikke hva som skal stå her, kanskje tittelen?</strong><br><br>
+                <strong>1st paragraph</strong><br>
+                <strong><a href="#">https://student.oslomet.no/en/</a></strong><br><br>
+                <strong>Author:</strong> student.oslomet.no<br><br>
+                <strong>Read Date:</strong> 10.11.2020<br><br>
             </div>
           </div>
       </div>
-     
+
     </div>
   </div>
 </div>
@@ -132,7 +133,7 @@
     show.style.right = "-200px";
   }
 
-  
+
   var img1 = document.getElementById("img1");
   var img2 = document.getElementById("img2");
   var img3 = document.getElementById("img3");
@@ -140,34 +141,34 @@
   var det1 = document.getElementById("det1");
   var det2 = document.getElementById("det2");
   var det3 = document.getElementById("det3");
-  
+
   var mer1 = document.getElementById("mer1");
   var mer2 = document.getElementById("mer2");
   var mer3 = document.getElementById("mer3");
-  
-  img1.onclick = function(){
-      det1.innerHTML = " <h2>JOIN THE <a>MOVEMENT</a></h2>";
-      det1.innerHTML += "<p>Join us as we work towards a better world. Don't be afraid to speak up! <br> <br> <strong><a href=\"SignIn.html\" style=\"text-decoration: none\"> SIGN IN </a></strong></p>";
-     
 
-     
-      
+  img1.onclick = function(){
+      det1.innerHTML = " <h2>INFORMATION</h2>";
+      det1.innerHTML += "<p>Here you will find the sources we used for all information <br> <strong><a href="info.html" style="text-decoration: none"> Read here </a></strong></p>";
+
+
+
+
   }
   img2.onclick = function(){
-      det2.innerHTML = "<h2>JOIN THE <a>MEETINGS</a></h2>";
-      det2.innerHTML += "<p>Join us at our meetings. Discussing important topics on climate change! <br> <br> <strong><a href=\"SignIn.html\" style=\"text-decoration: none\"> SIGN IN </a></strong></p>";
-  
+      det2.innerHTML = "<h2>IMAGES/VIDEOES</h2>";
+      det2.innerHTML += "<p>Here you will find the sources we used for the images and videoes we have taken inspiration from <br> <strong><a href="img-vid.html" style="text-decoration: none"> Read here </a></strong></p>";
 
-  
+
+
   }
   img3.onclick = function(){
-      det3.innerHTML = "<h2>JOIN THE <a>COMMUNITY</a></h2>";
-      det3.innerHTML += "<p>Join our community. Connect with other people and work together! <br> <br> <strong><a href=\"SignIn.html\" style=\"text-decoration: none\"> SIGN IN </a></strong></p>";
- 
+      det3.innerHTML = "<h2>GROUP MEMBERS</h2>";
+      det3.innerHTML += "<p>Here you will find all the members that have worked on this website <br> <strong><a href="group.html" style="text-decoration: none"> Read here </a></strong></p>";
 
-     
+
+
   }
-  
+
 
 </script>
 </body>
