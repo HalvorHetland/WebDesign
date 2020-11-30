@@ -170,16 +170,17 @@
 
   }
   .about{
-    height: 20vh;
+    height: auto;
     text-align: center;
     max-width: 100%;
     padding: 0;
     margin-left: 0;
 
   }
+
 }
 .box1{
-  height: 50vh;
+  height: auto;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
   background-position: center;
   position: relative;
@@ -203,6 +204,7 @@
   text-align: left;
   display: block;
   color: white;
+  margin-bottom: 10%;
 }
 .about .mission h1{
   font-size: 4em;
@@ -242,9 +244,7 @@
     padding: 1%;
     margin-top: 10%;
   }
-  .box1{
-    height: 65vh;
-  }
+  
   .container .contactInfo{
     width: 100%;
   }
@@ -283,30 +283,26 @@
 
 }
 
-.containeren{
-  padding: 50px;
-  margin-left: 0px;
-  padding-left: 0%;
+/*SECTIOM-MEMBERS*/
+.section-members{
+  height: auto;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-color: rgba(124, 121, 121, 0.705);
+  padding: 2.1%;
+  margin-top: 5%;
+  justify-content: left;
 }
-
-.container .contactInfo .box .text .source{
-  align-content: center;
-  width: 100%;
-  padding: 3%;
-  
+.section-members .members h3{
+  font-weight: 500;
+  color: black;
 }
-.container .contactInfo .box .text .source .img{
-  height: 100px;
-}
-
-
-
-
-
 /*SECTION 1*/
 
 #section1{
-  height: 100%;
+  height: auto;
   background-color: white;
   background-position: center;
   background-size: cover;
@@ -323,18 +319,8 @@
   padding-left: 8%;
   margin-bottom: 5%;
 }
-.container .members{
-  margin-top: 5%;
-  width: 100%;
-  height: 50%;
-  background-color: rgba(128, 128, 128, 0.678);
-  position: relative;
-}
 
-.container .members h3{
-  font-weight: 500;
-  color: black;
-}
+
 .container .contactInfo{
   width: 100%;
   display: flex;
