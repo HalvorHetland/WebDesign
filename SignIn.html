@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div id="page-container">
-    <div id="content-wrap">
 
   <!--NAVBAR-->
   <div class="hero">
@@ -25,7 +23,7 @@
               <a href="News.html"><li>NEWS</li></a>
               <a href="Contact.html"><li>CONTACT</li></a>
             </ul>
-            <a href="SignIn.html" style="text-decoration:none" button type="button" class="btn">SIGN IN</button></a>
+            <a href="SignIn.html" style="text-decoration:none" class="btn">SIGN IN</a>
           </div>
           <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
@@ -37,8 +35,11 @@
   </div>
   <div class="contactform">
     <div class="input-fields">
-      <input type="text" class="input" placeholder="Username">
-      <input type="text" class="input" placeholder="Password">
+      <label for="username">Username</label>
+      <input type="text" class="input" name="username" id="username" placeholder=" ">
+
+      <label for="password"> Password</label>
+      <input type="text" class="input" name="password" id="password" placeholder=" ">
       <div class="button">Continue</div>
       <br>
       <div class="container">
@@ -50,7 +51,6 @@
     </div>
     </div>
   </div>
-</div>
 </div>
       <footer class="footeren">
           <div class="venste-footer">
@@ -66,7 +66,7 @@
                   <h2>Referances</h2>
                   <ul class="box-footer">
                       <li><a href="https://www.un.org/sustainabledevelopment/">UN sustainable goals</a></li>
-                      <li><a href="https://www.un.org/sustainabledevelopment/climate-change/">goal nr 13. CLIMATE ACTION</a></li>
+                      <li><a href="https://www.un.org/sustainabledevelopment/climate-change/">Goal nr 13. CLIMATE ACTION</a></li>
                   </ul>
               </li>
               <li class="tillegg-footer">
@@ -76,7 +76,7 @@
                   </ul>
               </li>
               <li>
-                  <h2>Adress</h2>
+                  <h2>Address</h2>
                   <ul class="box-footer">
                       <li><a href="https://www.google.com/maps/place/OsloMet/@59.921084,10.7333234,15z/data=!4m5!3m4!1s0x0:0xd56463578e04ce80!8m2!3d59.921084!4d10.7333234"> 0167 Oslo</a></li>
                       <li><a href="https://www.google.com/maps/place/OsloMet/@59.921084,10.7333234,15z/data=!4m5!3m4!1s0x0:0xd56463578e04ce80!8m2!3d59.921084!4d10.7333234">Pilestredet 46</a></li>
