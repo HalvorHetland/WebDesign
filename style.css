@@ -18,6 +18,7 @@
   display: flex;
   padding: 20px 20px;
   width: 100%;
+  z-index: 2;
 }
 .nav-logo h1{
   color: #fff;
@@ -177,7 +178,6 @@
   border-radius: 5px 5px 5px 5px;
   position: relative;
   margin-left: 6%;
-  z-index: -1;
 }
 
 .moreBtn:hover{
@@ -195,7 +195,6 @@
   border-radius: 5px 5px 5px 5px;
   position: relative;
   margin-left: 6%;
-  z-index: -1;
 }
 
 .btnUN:hover{
