@@ -179,7 +179,7 @@
   }
 }
 .box1{
-  height: 30vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(plast.jpeg);
   background-position: center;
   position: relative;
@@ -206,7 +206,7 @@
 }
 .about .mission h1{
   font-size: 4em;
-  margin-top: 30%;
+  margin-top: 10%;
 
 }
 
