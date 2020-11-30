@@ -310,7 +310,7 @@ html {
     justify-content: center;
     align-items: center;
     padding-left: 1%;
-    
+
   }
 
   .container .contactInfo {
@@ -382,7 +382,7 @@ html {
   .fa-bars{
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 15px;
   }
   .nav-bar .fa{
     display: block;
