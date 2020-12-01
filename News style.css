@@ -117,8 +117,9 @@
   }
   .nav-bar .fa-close{
     display: block;
-    position: fixed;
-    float: right;
+    position: absolute;
+    right: 20px;
+    top: 15px;
     color: #fff;
     margin: 10px 25px;
     font-size: 22px;
