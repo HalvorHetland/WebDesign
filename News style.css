@@ -381,7 +381,7 @@
     flex: 100%;
     max-width: 500px;
   }
- 
+
 }
 
 @media (min-width: 700px) {
@@ -392,7 +392,7 @@
     left: 40px;
     margin-top: 4px;
   }
- 
+
 }
 
 footer{
@@ -467,7 +467,7 @@ footer{
 
  .sosiale a img{
    padding-top: 21px;
-   width: 10%;
+   width: 9%;
    padding-right: 5%;
    border-radius: 5px 5px 5px 5px;
  }
@@ -508,7 +508,7 @@ footer{
 
 @media screen and (max-width: 600px) {
   .sosiale a img{
-    width: 8%;
+    width: 9%;
     margin-left: 10px;
   }
 }
