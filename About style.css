@@ -280,13 +280,6 @@ color: gray;
 
 }
 
-/*SECTION 5*/
-#section5{
-  height: 30vh;
-  background-color: white;
-  background-position: center;
-  position: relative;
-}
 
 
 
@@ -499,6 +492,7 @@ footer{
   padding: 50px;
   background-color: black;
   color: white;
+  margin-top: auto;
 }
 
 .footeren > *{
