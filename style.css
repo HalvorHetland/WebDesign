@@ -417,7 +417,7 @@ footer{
   padding: 50px;
   background-color: black;
   color: white;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .footeren > *{
@@ -517,7 +517,7 @@ footer{
     padding-top: 20px;
   }
   footer{
-    margin-top: 200px;
+    margin-top: 100px;
   }
 }
 
