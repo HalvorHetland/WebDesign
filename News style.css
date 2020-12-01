@@ -244,18 +244,6 @@
   }
 }
 
-@media (max-width: 650px){
-  .banner-title{
-    margin: 80px 50px;
-  }
-  .banner-title h1{
-    font-size: 40px;
-  }
-  .container .contactInfo{
-    width: 100%;
-  }
-}
-
 .containeren{
   margin: 50px;
 }
@@ -346,53 +334,12 @@
   color: white;
 }
 
-
-.mer .les-mer a{
-  font-weight: 700;
-}
-
-.mer{
-  position: absolute;
-  background: #00bcd4;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  left: -200px;
-  margin-top: 50px;
-  transition: 0.5s;
-  transition-property: left;
-  align-content: center;
-  border-radius: 5px 5px 5px 5px;
-}
-
-.images:hover .mer{
-  left: 40px;
-  margin-top: 50px;
-}
-
-.mer .les-mer{
-  color: black;
-  font-size: 1.3em;
-}
-
 /*responsive css*/
 @media (max-width: 1000px){
   .images{
     flex: 100%;
     max-width: 500px;
   }
-
-}
-
-@media (min-width: 700px) {
-  .mer{
-    margin-top: 4px;
-  }
-  .images:hover .mer{
-    left: 40px;
-    margin-top: 4px;
-  }
-
 }
 
 footer{
