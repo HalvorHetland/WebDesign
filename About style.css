@@ -182,36 +182,32 @@ html {
   padding: 20px 0;
   display: flex;
 }
-.container .contactInfo .box .icon{
-  min-width: 60px;
-  height: 60px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 22px;
-}
+
 .container .contactInfo .box .text{
   display: flex;
   margin-left: 20px;
   font-size: 16px;
-  color: #fff;
+  color: black;
   flex-direction: column;
   font-weight: 300;
   text-align: left;
-
+  line-height: 26px;
+  margin-bottom: 5%;
+  
 
 }
 .container .contactInfo .box .text h3{
-  font-weight: 500;
+  font-weight: 300;
   color: black;
+  margin-top: 4%;
+  
+
 }
 
 .imgSec2{
   width: 40%;
   height: 50%;
-  padding-top: 3%;
+  padding-top: 7%;
   padding-left: 10%;
   margin-bottom: 5%;
 }
@@ -281,9 +277,6 @@ color: gray;
 }
 
 /*SECTION 5*/
-
-
-
   #section5{
     height: auto;
     background-color: white;
@@ -497,7 +490,19 @@ color: gray;
    
 
   }
-  
+  .container .contactInfo .box .text{
+    text-align: center;
+    width: 100%;
+    padding-left: 0%;
+    margin-left: 0%;
+    
+  }
+  .imgSec2{
+    margin-top: -2%;
+    margin-bottom: 7%;
+   
+  }
+
   .box4{
     text-align: center;
   }
@@ -505,6 +510,7 @@ color: gray;
     text-align: center;
     width: 100%;
     padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
