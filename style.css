@@ -154,14 +154,6 @@
   color: #00bcd4;
 }
 
-<!--.vertical-bar{
-  height: 100%;
-  background: #000;
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
 .nav-bar .fa{
   display: none;
   position: fixed;
@@ -201,14 +193,6 @@
   background-color: rgba(128, 128, 128, 0.575);
   transition:all 0.5s ease-in;
 }
-#section4{
-  height: 10vh;
-  background-color: rgba(57, 187, 204, 0.842);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-
-}
 
 
 @media only screen and (min-width: 768px){
@@ -223,19 +207,19 @@
   }
 
   .img-info h2 {
-    padding: 20px 0px 0px;
+    padding: 20px 0 0;
   }
 
   .img-info p {
-    padding: 20px 0px 0px;
+    padding: 20px 0 0;
   }
 
   .img-info2 h2 {
-    padding: 20px 0px 0px;
+    padding: 20px 0 0;
   }
 
   .img-info2 p {
-    padding: 20px 0px 0px;
+    padding: 20px 0 0;
 
   }
 
@@ -246,17 +230,12 @@
   .img-utehus {
     padding-top: 30px;
   }
-
 }
 
 
 @media (max-width: 970px){
   .Arrow-down .Arrow-downWhite{
     margin-top: 200px;
-  }
-
-  .vertical-bar{
-    display: none;
   }
   .banner-title{
     margin: 80px 40px;
@@ -271,7 +250,6 @@
     font-size: 50px;
   }
   .nav-bar{
-    /*padding: 20px 20px;*/
     position: center;
   }
   .fa-bars{
@@ -368,32 +346,6 @@
 
 }
 
-.linky{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-  background-color: whitesmoke;
-}
-
-.linky a {
-  color: grey;
-  text-decoration: none;
-  text-transform: initial;
-}
-
-.linky a:hover {
-  color: #00bcd4;
-  text-decoration: underline;
-}
-
-.linky a:active {
-  color: black;
-}
-
-.linky a:visited {
-  color: black;
-}
 .Arrow-down .Arrow-downWhite{
   width: 15%;
   display: block;
@@ -428,11 +380,11 @@
       float: left;
     }
     .img-info h2 {
-    padding: 20px 0px 0px 30px;
+    padding: 20px 0 0 30px;
   }
 
   .img-info p {
-    padding: 20px 0px 0px 30px;
+    padding: 20px 0 0 30px;
   }
   .img-info2{
     padding-top: 100px;
@@ -440,14 +392,14 @@
     float: left;
   }
   .img-info2 h2 {
-    padding: 50px 0px 0px 30px;
+    padding: 50px 0 0 30px;
   }
 
   .img-info2 p {
-    padding: 20px 0px 0px 30px;
+    padding: 20px 0 0 30px;
   }
   .img-Collect {
-    padding-top: 0px;
+    padding-top: 0;
     width: 50%;
     float: right;
   }
@@ -457,9 +409,7 @@
     float: right;
     padding-right: 14%;
   }
-
 }
-
 
 footer{
   display: flex;
@@ -479,8 +429,6 @@ footer{
   margin-bottom: 2em;
 }
 
-
-
 .footeren ul{
   list-style: none;
   padding-left: 0;
@@ -498,11 +446,8 @@ footer{
  .høyre-footer{
    flex-flow: row wrap;
    display: -webkit-flex;
-
    display: flex;
  }
-
-
 
  .høyre-footer > *{
    flex: 1 51%;
