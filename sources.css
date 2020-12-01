@@ -97,9 +97,8 @@
 
 
 @media (max-width: 970px){
-
   .nav-bar{
-    padding: 20px 20px;
+    /*padding: 20px 20px;*/
     position: center;
   }
   .fa-bars{
@@ -107,23 +106,42 @@
     right: 20px;
     top: 15px;
   }
-  .nav-bar .fa{
+
+  .nav-bar .fa-bars{
     display: block;
     color: #fff;
     margin: 10px 25px;
     font-size: 22px;
     cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
   }
+  .nav-bar .fa-close{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #fff;
+    margin: 10px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .nav-bar .fa:hover{
+    transition: all 0.5s;
+    background-color: #00bcd4;
+  }
+
   .nav-links{
-    height: 100vh;
-    width: 200px;
+    height: auto;
+    width: 100%;
     background-color: black;
-    top: 0;
-    right: -200px;
+    top: -500px;
+    left: 0;
+    /*right: -200px;*/
     position: fixed;
-    text-align: left;
+    text-align: center;
     z-index: 2;
-    transition: 0.5s;
+    transition: 0.7s;
   }
   .nav-logo{
     padding-left: 25px;
@@ -132,23 +150,23 @@
     display: block;
     padding-top: 25px;
   }
-  .nav-links .btn{
-    float: left;
+  .nav-links .btn {
+    float: none;
     font-size: 0.9em;
-    display: flex;
-    margin-left: 25px;
-    margin-top: 25px;
-    border-radius: 5px 5px 5px 5px;
-  }
-  .btn{
-    padding: 10px;
+    border-radius: 0;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
   }
   .about{
     text-align: center;
     max-width: 100%;
     padding: 0;
     margin-left: 0;
-    
+
 
   }
   .about .mission{
@@ -160,7 +178,7 @@
   .about .mission h1{
     margin-top: 20%;
   }
-  
+
 }
 
 @media (max-width: 770px){
@@ -215,18 +233,18 @@
 .containeren{
   padding: 50px;
   margin-left: 0px;
-  
+
 }
 .container .contactInfo{
   width: 100%;
- 
+
 }
 
 .container .contactInfo .box .text .source{
   align-content: center;
   width: 100%;
   padding: 3%;
-  
+
 }
 .container .contactInfo .box .text .source .source-innhold{
   width: auto;
@@ -254,7 +272,7 @@
     padding: 1%;
     margin-top: 10%;
   }
-  
+
   .container .contactInfo{
     width: 100%;
   }
@@ -262,12 +280,12 @@
     padding: 50px;
     padding-left: 0%;
   }
-  
+
   .container .contactInfo .box .text .source{
     align-content: center;
     width: 100%;
     padding: 3%;
-    
+
   }
   .container .contactInfo .box .text .source .source-innhold{
     width: auto;
@@ -330,7 +348,7 @@
   background-size: cover;
   overflow-x: hidden;
   position: relative;
- 
+
 
 }
 .container{
@@ -357,7 +375,7 @@
   font-weight: 300;
   text-align: left;
   width: 80%;
-  
+
 }
 .container .contactInfo .box .text .source{
   background-color: #00bbd45d;
@@ -365,13 +383,13 @@
 .container .contactInfo .box .text .source .source-innhold{
   padding: 5%;
   float: left;
-  
+
 }
 .container .contactInfo .box .text .source .source-title{
   padding-left: 5%;
   padding-right: 5%;
-  
-  
+
+
 }
 .container .contactInfo .box .text .source a {
   text-decoration: none;
@@ -393,8 +411,8 @@
   font-weight: 500;
   color: black;
   margin-bottom: 1%;
-  
-  
+
+
 }
 .bold-text{
   color: rgba(17, 54, 109, 0.863);
@@ -419,23 +437,23 @@
   }
   .container .contactInfo{
     width: 100%;
-   
+
   }
-  
+
   .container .contactInfo .box .text .source{
     width: 100%;
     padding: 3%;
-    
+
   }
   .container .contactInfo .box .text .source .source-innhold{
     width: auto;
   }
-    
+
   .container .contactInfo .box .text .source .source-img{
     margin-left: 5%;
   }
- 
-  
+
+
 }
 
 @media (min-width: 700px) {
@@ -452,17 +470,17 @@
   }
   .container .contactInfo{
     width: 100%;
-   
+
   }
   .container .contactInfo .box .text .source{
-    width: 100%;
+    width: 80%;
     padding: 3%;
-    
+
   }
   .container .contactInfo .box .text .source .source-innhold{
     width: auto;
   }
-  
+
   .container .contactInfo .box .text .source .img{
     height: 200px;
   }
@@ -545,8 +563,9 @@ footer{
 
  .sosiale a img{
    padding-top: 21px;
-   width: 10%;
+   width: 9%;
    padding-right: 5%;
+   border-radius: 5px 5px 5px 5px;
  }
 
  @media screen and (min-width: 900px) {
@@ -568,7 +587,7 @@ footer{
 
   .sosiale a img{
     width: 10%;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 40px;
   }
   .høyre-footer{
@@ -583,14 +602,15 @@ footer{
 
 @media screen and (max-width: 600px) {
   .sosiale a img{
-    width: 10%;
+    width: 8%;
+    margin-left: 10px;
   }
 }
 
 @media screen and (max-width: 550px){
   .sosiale a img{
-    padding: 10px;
-    margin-left: 30px;
+    padding: 5px;
+    margin-left: 20px;
   }
 }
 .all{
