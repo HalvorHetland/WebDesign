@@ -141,7 +141,7 @@ html {
 .btnDown{
   position: relative;
   margin-top: 55%;
- 
+
 }
 .btnDown .arrowDownWhite{
   height: 10%;
@@ -158,7 +158,7 @@ html {
   background-size: cover;
   overflow-x: hidden;
   position: relative;
-  
+
 }
 
 .container{
@@ -168,7 +168,7 @@ html {
   align-items: left;
   margin-top: 30px;
   padding-left: 8%;
-  
+
 }
 .container .contactInfo{
   width: 50%;
@@ -200,7 +200,7 @@ html {
   flex-direction: column;
   font-weight: 300;
   text-align: left;
-  
+
 
 }
 .container .contactInfo .box .text h3{
@@ -232,7 +232,7 @@ html {
   flex-direction: column;
   font-weight: 300;
   text-align: left;
- 
+
 }
 .about .mission{
   margin-top: 5%;
@@ -248,7 +248,7 @@ html {
 .about .mission h1{
   font-size: 4em;
   margin-top: 2%;
-  
+
 }
 .about .mission h3{
  margin-top: 2%;
@@ -268,7 +268,7 @@ color: gray;
   padding-left: 9%;
   margin-top: 7%;
   margin-bottom: auto;
-  
+
 }
 .box3{
   float: right;
@@ -276,8 +276,8 @@ color: gray;
   padding-right: 8%;
   padding-left: -10%;
   margin-top: 7%;
- 
-  
+
+
 }
 
 /*SECTION 5*/
@@ -298,9 +298,9 @@ color: gray;
   width: 100%;
   padding: 2%;
   height: 30%;
-	
 
-  
+
+
 }
 
 
@@ -331,9 +331,9 @@ color: gray;
     max-width: 100%;
     padding: 0px;
     margin-left: 0%;
-   
+
   }
-  .about .mission{ 
+  .about .mission{
     max-width: 100%;
     text-align: center;
     margin-left: 0%;
@@ -351,7 +351,7 @@ color: gray;
     max-width: 50%;
     padding: 5%;
     margin-top: 5%;
-    
+
   }
 }
 
@@ -361,7 +361,7 @@ color: gray;
     margin-top: 3%;
 
   }
- 
+
 }
 
 @media (max-width: 970px){
@@ -443,9 +443,9 @@ color: gray;
     max-width: 100%;
     padding: 0px;
     margin-left: 0%;
-   
+
   }
-  .about .mission{ 
+  .about .mission{
     max-width: 100%;
     text-align: center;
     margin-left: 0%;
@@ -469,7 +469,7 @@ color: gray;
     max-width: 50%;
     padding: 5%;
     margin-top: 10%;
-    
+
   }
 }
 .Arrow-down .Arrow-downWhite{
@@ -515,74 +515,74 @@ footer{
 .footeren ul{
   list-style: none;
   padding-left: 0;
-}
+ }
 
-.footeren li{
-  line-height: 2em;
-}
+ .footeren li{
+   line-height: 2em;
+ }
 
-.footeren a{
-  text-decoration: none;
-  color: white;
-}
+ .footeren a{
+   text-decoration: none;
+   color: white;
+ }
 
-.høyre-footer{
-  flex-flow: row wrap;
-  display: -webkit-flex;
+ .høyre-footer{
+   flex-flow: row wrap;
+   display: -webkit-flex;
 
-  display: flex;
-}
-
-
-
-.høyre-footer > *{
-  flex: 1 51%;
-  margin-right: 1.24em;
-}
-
-.box-footer a{
-  color: gray;
-}
-
-.bunn-footer{
-  text-align: center;
-  color: gray;
-  padding-top: 51px;
-}
-
-.venste-footer p{
-  padding-top: 11px;
-  padding-right: 21%;
-  color: gray;
-}
-
-.sosiale a{
-  width: 40%;
-  height: 40%;
-  display: inline;
-  margin-right: 11px;
-}
-
-.sosiale a img{
-  padding-top: 21px;
-  width: 10%;
-  padding-right: 5%;
-  border-radius: 5px 5px 5px 5px;
-}
+   display: flex;
+ }
 
 
 
-@media screen and (min-width: 900px) {
-  .høyre-footer > *{
-    flex: 1;
-  }
-  .venste-footer{
-    flex: 1 0;
-  }
-  .høyre-footer{
-    flex: 2 0;
-  }
-}
+ .høyre-footer > *{
+   flex: 1 51%;
+   margin-right: 1.24em;
+ }
+
+ .box-footer a{
+   color: gray;
+ }
+
+ .bunn-footer{
+   text-align: center;
+   color: gray;
+   padding-top: 51px;
+ }
+
+ .venste-footer p{
+   padding-top: 11px;
+   padding-right: 21%;
+   color: gray;
+ }
+
+ .sosiale a{
+   width: 40%;
+   height: 40%;
+   display: inline;
+   margin-right: 11px;
+ }
+
+ .sosiale a img{
+   padding-top: 21px;
+   width: 10%;
+   padding-right: 5%;
+   border-radius: 5px 5px 5px 5px;
+ }
+
+
+
+ @media screen and (min-width: 900px) {
+   .høyre-footer > *{
+     flex: 1;
+   }
+   .venste-footer{
+     flex: 1 0;
+   }
+   .høyre-footer{
+     flex: 2 0;
+   }
+ }
 
 @media screen and (max-width: 900px){
   .venste-footer{
@@ -606,7 +606,7 @@ footer{
 
 @media screen and (max-width: 600px) {
   .sosiale a img{
-    width: 8%;
+    width: 13%;
     margin-left: 10px;
   }
 }
