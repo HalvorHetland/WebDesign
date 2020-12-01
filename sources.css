@@ -402,7 +402,7 @@
 .container .contactInfo .box .text .source .source-img{
   float: left;
   margin-top: 3%;
-  margin-left: 25%;
+  
 }
 .container .contactInfo .box .text .source .img{
   height: 100px;
@@ -478,7 +478,7 @@
 
   }
   .container .contactInfo .box .text .source .source-innhold{
-    width: auto;
+    width: 50%;
   }
 
   .container .contactInfo .box .text .source .img{
