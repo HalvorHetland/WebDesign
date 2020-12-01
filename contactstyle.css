@@ -305,6 +305,7 @@ body{
 @media screen and (max-width: 600px){
   .contactform{
     flex-direction: column;
+    overflow: hidden;
   }
   .message textarea{
     height: 60px;
