@@ -116,9 +116,9 @@
     border-radius: 5px 5px 5px 5px;
   }
   .nav-bar .fa-close{
-    display: block;
-    position: fixed;
-    float: right;
+    display: inline;
+    position: relative;
+    margin-left: 1000px;
     color: #fff;
     margin: 10px 25px;
     font-size: 22px;
@@ -382,7 +382,7 @@
     flex: 100%;
     max-width: 500px;
   }
- 
+
 }
 
 @media (min-width: 700px) {
@@ -393,7 +393,7 @@
     left: 40px;
     margin-top: 4px;
   }
- 
+
 }
 
 footer{
@@ -509,7 +509,7 @@ footer{
 
 @media screen and (max-width: 600px) {
   .sosiale a img{
-    width: 8%;
+    width: 9%;
     margin-left: 10px;
   }
 }
