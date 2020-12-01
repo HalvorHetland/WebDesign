@@ -330,7 +330,7 @@
   justify-content: left;
 }
 .section-members .members h3{
-  font-weight: 500;
+  font-weight: 400;
   color: black;
 }
 .section-members .members .members-text{
@@ -446,7 +446,7 @@
 
   }
   .container .contactInfo .box .text .source .source-innhold{
-    width: auto;
+    width: 100%;
   }
 
   .container .contactInfo .box .text .source .source-img{

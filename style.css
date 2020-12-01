@@ -388,7 +388,7 @@
   }
   .img-info2{
     padding-top: 100px;
-    width: 47%;
+    width: 50%;
     float: left;
   }
   .img-info2 h2 {
@@ -405,9 +405,9 @@
   }
   .img-utehus {
     padding-top: 100px;
-    width: 37%;
+    width: 50%;
     float: right;
-    padding-right: 14%;
+    
   }
 }
 
