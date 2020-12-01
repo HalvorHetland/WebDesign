@@ -12,7 +12,7 @@
         <a href="index.html" style="text-decoration:none"><h1>COLLECT</h1></a>
       </div>
       <div class="nav-links" id="nav-links">
-        <img src="close_23dp.png" class="fa fa-close" alt="close" onclick="closeMenu()" onkeypress="closeMenu()">
+        <img src="close_36dp.png" class="fa fa-close" alt="close" onclick="closeMenu()" onkeypress="closeMenu()">
       <ul>
         <a href="index.html"><li>HOME</li></a>
         <a href="about.html"><li>ABOUT</li></a>
@@ -136,14 +136,13 @@
 
 <script>
 
-var show = document.getElementById("nav-links");
-
-      function showMenu(){
-          show.style.right = "0";
+  var show = document.getElementById("nav-links");
+  function showMenu(){
+    show.style.top = "0";
   }
-      function closeMenu(){
-      show.style.right = "-200px";
-}
+  function closeMenu(){
+    show.style.top = "-500px";
+  }
 
 
  

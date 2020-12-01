@@ -116,9 +116,10 @@
     border-radius: 5px 5px 5px 5px;
   }
   .nav-bar .fa-close{
-    display: inline;
-    position: relative;
-    margin-left: 1000px;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
     color: #fff;
     margin: 10px 25px;
     font-size: 22px;
@@ -159,8 +160,6 @@
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: auto;
-  }
-  .btn{
   }
   .about{
     text-align: center;
